@@ -20,6 +20,7 @@ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
+        console.log("starting");
     },
     // Bind Event Listeners
     //
@@ -34,6 +35,7 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        takePicture();
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {

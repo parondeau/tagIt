@@ -36,6 +36,7 @@ var app = {
         document.addEventListener('touchmove', function(e) {
             e.preventDefault();
         }, false);
+        Parse.initialize("DkJYCPmhArcOfQwCUpgj1MB7fNl5f9fliWfhaDLO", "QblvxkjvSXjU3iVMQIJkYqYE99X26dGWTCo6Qp0b");
         app.receivedEvent('deviceready');
     },
     // Update DOM on a Received Event

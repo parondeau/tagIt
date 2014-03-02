@@ -16,6 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+Parse.initialize("DkJYCPmhArcOfQwCUpgj1MB7fNl5f9fliWfhaDLO", "QblvxkjvSXjU3iVMQIJkYqYE99X26dGWTCo6Qp0b");
 var myScroll;
 var app = {
     // Application Constructor
@@ -37,7 +38,6 @@ var app = {
         document.addEventListener('touchmove', function(e) {
             e.preventDefault();
         }, false);
-        Parse.initialize("DkJYCPmhArcOfQwCUpgj1MB7fNl5f9fliWfhaDLO", "QblvxkjvSXjU3iVMQIJkYqYE99X26dGWTCo6Qp0b");
         app.receivedEvent('deviceready');
     },
     // Update DOM on a Received Event
@@ -48,6 +48,12 @@ var app = {
             momentum: false,
             snap: true
         });
+        feedScroll = new IScroll('#feedWrapper', {
+            scrollX: false,
+            scrollY: true,
+            momentum: false,
+            snap: true
+        });
         console.log('Received Event: ' + id);
         app.setupClickEvents();
     },
@@ -55,10 +61,8 @@ var app = {
         $('.headerLeft').on('touchstart', app.navigateLeft);
         $('.headerRight').on('touchstart', app.navigateRight);
         $('.canIcon').on('touchstart', takePicture);
-        $('confirmDialogYes').on('touchstart', function(){
-
-        });
-        $('confirmDialogNo').on('touchstart', function(){
+        $('#confirmDialogYes').on('touchstart', getLocation);
+        $('#confirmDialogNo').on('touchstart', function(){
 
         });
     },
@@ -80,4 +84,13 @@ function addOverlay(){
 function removeOverlay(){
     $('#cameraImageUnderlay').removeClass('show');
     $('#confirmOverlay').removeClass('show');
+}
+
+function getLocation() {
+    navigator.geolocation.getCurrentPosition(geolocationSuccess);
+}
+
+function geolocationSuccess(pos) {
+    var loc = new Parse.GeoPoint(pos.coords.latitude, pos.coords.longitude);
+    pushTag(imageURI, "image.jpg", loc);
 }

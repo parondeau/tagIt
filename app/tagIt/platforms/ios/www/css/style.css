@@ -14,6 +14,51 @@ body {
     box-sizing: border-box;
     overflow-y: hidden;
 }
+#feedWrapper {
+    height: 548px;
+    width: 320px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-align: center;
+}
+#feedWrapper #feedScroller {
+    height: 5480px;
+    width: 320px;
+    position: absolute;
+    z-index: 1;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+}
+#feedWrapper #feedScroller > div {
+    height: 548px;
+    width: 320px;
+    margin: 0;
+    background-color: blue;
+}
+#one {
+    background-color: red !important;
+}
+#two {
+    background-color: green !important;
+}
+#three {
+    background-color: yellow !important;
+}
 #wrapper {
     height: 548px;
     width: 320px;

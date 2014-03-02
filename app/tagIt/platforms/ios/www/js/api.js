@@ -18,11 +18,11 @@ function getFeed(num, set) {
     query.doesNotExist("image");
     query.find({
         success: function (results) {
-            return results;
+            callback(null, results);
         },
         error: function (results) {
             //iPhone.selfDestruct();
-            return;
+            callback("error!", results);
         }
     });
 }
@@ -35,7 +35,7 @@ function getFeed(num, set) {
  *
  *Return - Parse.Object extending "Tags" - Empty if query fails
 */
-function getMap(num, loc, km) {
+function getMap(num, loc, km, callback) {
     var Tags = Parse.Object.extend("Tags");
     var query = new Parse.Query(Tags);
     if (!loc) { loc = new Parse.GeoPoint(43.646154, -79.400729); }
@@ -46,11 +46,11 @@ function getMap(num, loc, km) {
     query.withinKilometers("location", loc, km);
     query.find({
         success: function (results) {
-            return results;
+            callback(null, results);
         },
         error: function (results) {
             //iPhone.selfDestruct();
-            return;
+            callback("error!", results);
         }
     });
 }

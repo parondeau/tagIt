@@ -8,7 +8,7 @@
 */
 function getTags(num, set, ranged, loc, km){
 	var Tags = Parse.Object.extend("Tags");
-	var query = new Parse.Query.(Tags);
+	var query = new Parse.Query(Tags);
 	if (!num){num = 20;}
 	query.limit(num);
 

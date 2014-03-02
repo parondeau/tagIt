@@ -16,6 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+var myScroll;
 var app = {
     // Application Constructor
     initialize: function() {

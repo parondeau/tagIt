@@ -1,878 +1,0 @@
-TtagIt
-v6
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Info.plist /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/tagIt-Info.plist
-cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/device/tagIt.app/ResourceRules.plist
-cPhaseScriptExecution Copy\ www\ directory /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Script-304B58A110DAC018002A0835.sh
-cCpResource tagIt/config.xml build/device/tagIt.app/config.xml
-cCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-76.png tagIt/Resources/icons/icon-76.png
-cCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-40@2x.png tagIt/Resources/icons/icon-40@2x.png
-cCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-72.png tagIt/Resources/icons/icon-72.png
-cCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon.png tagIt/Resources/icons/icon.png
-cCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon@2x.png tagIt/Resources/icons/icon@2x.png
-cCopyStringsFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/en.lproj/Localizable.strings tagIt/Resources/en.lproj/Localizable.strings
-cCompileXIB /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Classes/MainViewController.xib
-cCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-50.png tagIt/Resources/icons/icon-50.png
-cCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-60@2x.png tagIt/Resources/icons/icon-60@2x.png
-cCopyStringsFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/de.lproj/Localizable.strings tagIt/Resources/de.lproj/Localizable.strings
-cCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-small.png tagIt/Resources/icons/icon-small.png
-cCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default-Landscape@2x~ipad.png tagIt/Resources/splash/Default-Landscape@2x~ipad.png
-cCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default-Landscape~ipad.png tagIt/Resources/splash/Default-Landscape~ipad.png
-cCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default-Portrait@2x~ipad.png tagIt/Resources/splash/Default-Portrait@2x~ipad.png
-cCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-small@2x.png tagIt/Resources/icons/icon-small@2x.png
-cCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default-Portrait~ipad.png tagIt/Resources/splash/Default-Portrait~ipad.png
-cCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-40.png tagIt/Resources/icons/icon-40.png
-cCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default@2x~iphone.png tagIt/Resources/splash/Default@2x~iphone.png
-cCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-60.png tagIt/Resources/icons/icon-60.png
-cCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default~iphone.png tagIt/Resources/splash/Default~iphone.png
-cCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default-568h@2x~iphone.png tagIt/Resources/splash/Default-568h@2x~iphone.png
-cCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-50@2x.png tagIt/Resources/icons/icon-50@2x.png
-cCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-76@2x.png tagIt/Resources/icons/icon-76@2x.png
-cCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-72@2x.png tagIt/Resources/icons/icon-72@2x.png
-cProcessPCH /var/folders/46/d2xtp35d15ngpvphpl8xm6ch0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/tagIt-Prefix-dixyautxpaoypbfvxwfdkzllmezj/tagIt-Prefix.pch.pch tagIt/tagIt-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/main.o /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/AppDelegate.o /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/MainViewController.o /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/tagIt normal armv7
-cGenerateDSYMFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app.dSYM /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/tagIt
-cProcessProductPackaging /Users/paulrondeau/Library/MobileDevice/Provisioning\ Profiles/30597D63-BDBD-44D0-A6AF-761BD8F2C27D.mobileprovision /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/embedded.mobileprovision
-cTouch /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app
-cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/tagIt.xcent
-cCodeSign /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
-c00000000528287160000000000000110
-t1384285974
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
-c0000000052795A600000000000000094
-t1383684704
-s148
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
-c0000000052795A600000000000000096
-t1383684704
-s150
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
-c0000000052795A60000000000000036B
-t1383684704
-s875
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
-c0000000052795A6000000000000001A0
-t1383684704
-s416
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
-c0000000052795A610000000000075BB0
-t1383684705
-s482224
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c0000000052795A6300000000004D63C0
-t1383684707
-s5071808
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c0000000052795A630000000000146100
-t1383684707
-s1335552
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
-c0000000052795A650000000000210C80
-t1383684709
-s2165888
-
-N/Users/paulrondeau/Library/MobileDevice/Provisioning Profiles/30597D63-BDBD-44D0-A6AF-761BD8F2C27D.mobileprovision
-c000000005312642600000000000034EE
-t1393714214
-s13550
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/libCordova.a
-c000000005312661500000000001C0110
-t1393714709
-s1835280
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app
-t1393714712
-s1088
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app.dSYM
-t2
-s0
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default-568h@2x~iphone.png
-t1393714710
-s61990
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default-Landscape@2x~ipad.png
-t1393714710
-s143186
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default-Landscape~ipad.png
-t1393714710
-s65305
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default-Portrait@2x~ipad.png
-t1393714710
-s136924
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default-Portrait~ipad.png
-t1393714710
-s63460
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default@2x~iphone.png
-t1393714710
-s55319
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default~iphone.png
-t1393714710
-s20021
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Info.plist
-t1393714709
-s1600
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/MainViewController.nib
-t1393714711
-s836
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/PkgInfo
-t2
-s0
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/ResourceRules.plist
-t1393714709
-s150
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/config.xml
-t1393714709
-s4723
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/de.lproj/Localizable.strings
-t1393714710
-s280
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/embedded.mobileprovision
-t1393714712
-s13550
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/en.lproj/Localizable.strings
-t1393714710
-s166
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-40.png
-t1393714710
-s4450
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-40@2x.png
-t1393714710
-s8883
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-50.png
-t1393714710
-s5557
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-50@2x.png
-t1393714710
-s11331
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-60.png
-t1393714710
-s6838
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-60@2x.png
-t1393714710
-s14152
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-72.png
-t1393714710
-s8045
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-72@2x.png
-t1393714710
-s17926
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-76.png
-t1393714710
-s8463
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-76@2x.png
-t1393714710
-s16629
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-small.png
-t1393714710
-s3349
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-small@2x.png
-t1393714710
-s6585
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon.png
-t1393714710
-s5977
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon@2x.png
-t1393714710
-s13012
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/tagIt
-t1393714712
-s276788
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/AppDelegate.o
-t1393714712
-s77968
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/MainViewController.o
-t1393714712
-s53244
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/main.o
-t1393714712
-s3080
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/tagIt.LinkFileList
-c00000000531266150000000000000180
-t1393714709
-s384
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Script-304B58A110DAC018002A0835.sh
-c0000000053126615000000000000002D
-t1393714709
-s45
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/tagIt.xcent
-t1393714712
-s402
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Classes/AppDelegate.m
-c00000000531230EF00000000000013A1
-t1393701103
-s5025
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Classes/MainViewController.m
-c00000000531230EF0000000000001266
-t1393701103
-s4710
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Classes/MainViewController.xib
-c00000000531230EF0000000000001759
-t1393701103
-s5977
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/de.lproj/Localizable.strings
-c00000000531230EF00000000000004BF
-t1393701103
-s1215
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/en.lproj/Localizable.strings
-c00000000531230EF00000000000004AA
-t1393701103
-s1194
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-40.png
-c00000000531230EF0000000000000FF2
-t1393701103
-s4082
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-40@2x.png
-c00000000531230EF0000000000001CF3
-t1393701103
-s7411
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-50.png
-c00000000531230EF000000000000130A
-t1393701103
-s4874
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-50@2x.png
-c00000000531230EF000000000000258B
-t1393701103
-s9611
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-60.png
-c00000000531230EF00000000000016B3
-t1393701103
-s5811
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-60@2x.png
-c00000000531230EF0000000000002E94
-t1393701103
-s11924
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-72.png
-c00000000531230EF0000000000001350
-t1393701103
-s4944
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-72@2x.png
-c00000000531230EF0000000000002DBA
-t1393701103
-s11706
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-76.png
-c00000000531230EF0000000000001B71
-t1393701103
-s7025
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-76@2x.png
-c00000000531230EF0000000000003B9E
-t1393701103
-s15262
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-small.png
-c00000000531230EF0000000000000CDE
-t1393701103
-s3294
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-small@2x.png
-c00000000531230EF00000000000015E8
-t1393701103
-s5608
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon.png
-c00000000531230EF0000000000000F3E
-t1393701103
-s3902
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon@2x.png
-c00000000531230EF0000000000001EBD
-t1393701103
-s7869
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/splash/Default-568h@2x~iphone.png
-c00000000531230EF00000000000085B1
-t1393701103
-s34225
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/splash/Default-Landscape@2x~ipad.png
-c00000000531230EF0000000000012DF4
-t1393701103
-s77300
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/splash/Default-Landscape~ipad.png
-c00000000531230EF0000000000008877
-t1393701103
-s34935
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/splash/Default-Portrait@2x~ipad.png
-c00000000531230EF0000000000012B02
-t1393701103
-s76546
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/splash/Default-Portrait~ipad.png
-c00000000531230EF00000000000085E6
-t1393701103
-s34278
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/splash/Default@2x~iphone.png
-c00000000531230EF0000000000007323
-t1393701103
-s29475
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/splash/Default~iphone.png
-c00000000531230EF000000000000289A
-t1393701103
-s10394
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/config.xml
-c00000000531266110000000000001273
-t1393714705
-s4723
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/main.m
-c00000000531230EF0000000000000457
-t1393701103
-s1111
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/tagIt-Info.plist
-c00000000531266110000000000000A2F
-t1393714705
-s2607
-
-N/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/tagIt-Prefix.pch
-c00000000531230EF00000000000003BB
-t1393701103
-s955
-
-N/var/folders/46/d2xtp35d15ngpvphpl8xm6ch0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/tagIt-Prefix-dixyautxpaoypbfvxwfdkzllmezj/tagIt-Prefix.pch.pch
-t1393714712
-s5283288
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies1a329e959dc2b841^8674a0959dc2b841^---0#1#1#--18"Check dependencies36"B808C545-E9E6-4B1D-8F64-E0BCE3338F23-
-
-CCodeSign /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app
-s415407512.604539
-e415407512.802487
-r1
-xCodeSign
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"[1mCodeSign[0m [1mbuild/device/tagIt.app[0m47"[1mCodeSign[0m [1mbuild/device/tagIt.app[0m08e89a989dc2b841^2975cd989dc2b841^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/0000000000000000^1131"[1mCodeSign[0m [1mbuild/device/tagIt.app[0m    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    Using code signing identity "iPhone Developer: Garrett Gottlieb (2D4563BVC2)" and provisioning profile "iOS Team Provisioning Profile: *" (30597D63-BDBD-44D0-A6AF-761BD8F2C27D)    codesign --force --sign BE72954122AEEDBBA18F4C2B91E64CAEC64EF6AB --resource-rules=/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/ResourceRules.plist --entitlements /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/tagIt.xcent /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app36"97FA15DC-3948-4A37-9DBC-CA05805B8C70-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCompileC build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/AppDelegate.o /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s415407512.298320
-e415407512.395950
-r1
-xCompileC
-xbuild/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/AppDelegate.o
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Classes/AppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Classes/AppDelegate.m
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Classes/AppDelegate.h
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/include/Cordova/CDVViewController.h
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/include/Cordova/CDVAvailability.h
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/include/Cordova/CDVPlugin.h
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Classes/MainViewController.h
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Classes/AppDelegate.m201"[1mCompileC[0m build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/AppDelegate.o [1mtagIt/Classes/AppDelegate.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler60944c989dc2b841^7d5e65989dc2b841^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Classes/AppDelegate.m0000000000000000^3583"[1mCompileC[0m build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/AppDelegate.o [1mtagIt/Classes/AppDelegate.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=96 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/tagIt-generated-files.hmap -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/tagIt-own-target-headers.hmap -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/tagIt-all-target-headers.hmap -iquote /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/tagIt-project-headers.hmap -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/include -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/usr/local/lib/include -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/UninstalledProducts/include -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/DerivedSources/armv7 -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/DerivedSources -F/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device -include /var/folders/46/d2xtp35d15ngpvphpl8xm6ch0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/tagIt-Prefix-dixyautxpaoypbfvxwfdkzllmezj/tagIt-Prefix.pch -MMD -MT dependencies -MF /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/AppDelegate.dia -c /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Classes/AppDelegate.m -o /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/AppDelegate.o36"DB25E458-8378-4EAD-B323-7C5A1235B41C-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCompileC build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/MainViewController.o /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s415407512.298750
-e415407512.382226
-r1
-xCompileC
-xbuild/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/MainViewController.o
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Classes/MainViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Classes/MainViewController.m
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Classes/MainViewController.h
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/include/Cordova/CDVViewController.h
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/include/Cordova/CDVAvailability.h
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/include/Cordova/CDVPlugin.h
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Classes/MainViewController.m215"[1mCompileC[0m build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/MainViewController.o [1mtagIt/Classes/MainViewController.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler63974c989dc2b841^f5d961989dc2b841^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Classes/MainViewController.m0000000000000000^3625"[1mCompileC[0m build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/MainViewController.o [1mtagIt/Classes/MainViewController.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=96 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/tagIt-generated-files.hmap -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/tagIt-own-target-headers.hmap -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/tagIt-all-target-headers.hmap -iquote /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/tagIt-project-headers.hmap -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/include -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/usr/local/lib/include -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/UninstalledProducts/include -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/DerivedSources/armv7 -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/DerivedSources -F/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device -include /var/folders/46/d2xtp35d15ngpvphpl8xm6ch0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/tagIt-Prefix-dixyautxpaoypbfvxwfdkzllmezj/tagIt-Prefix.pch -MMD -MT dependencies -MF /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/MainViewController.d --serialize-diagnostics /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/MainViewController.dia -c /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Classes/MainViewController.m -o /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/MainViewController.o36"85DBE46A-B50D-4F4A-9FD8-68B3608D77A9-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCompileC build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/main.o /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s415407512.298055
-e415407512.328420
-r1
-xCompileC
-xbuild/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/main.o
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/main.m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/main.m179"[1mCompileC[0m build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/main.o [1mtagIt/main.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler93714c989dc2b841^6e3054989dc2b841^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/main.m0000000000000000^3525"[1mCompileC[0m build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/main.o [1mtagIt/main.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=96 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/tagIt-generated-files.hmap -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/tagIt-own-target-headers.hmap -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/tagIt-all-target-headers.hmap -iquote /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/tagIt-project-headers.hmap -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/include -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/usr/local/lib/include -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/UninstalledProducts/include -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/DerivedSources/armv7 -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/DerivedSources -F/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device -include /var/folders/46/d2xtp35d15ngpvphpl8xm6ch0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/tagIt-Prefix-dixyautxpaoypbfvxwfdkzllmezj/tagIt-Prefix.pch -MMD -MT dependencies -MF /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/main.dia -c /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/main.m -o /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/main.o36"AACE3713-86FD-478E-8908-E03CFF5B4D95-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCompileXIB /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Classes/MainViewController.xib
-s415407510.013279
-e415407511.922952
-r1
-xCompileXIB
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Classes/MainViewController.xib
-o2014-03-01 17:58:31.360 Interface Builder Cocoa Touch Tool[20509:303] CFPreferences: user home directory at file:///Users/paulrondeau/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compiling /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Classes/MainViewController.xib63"[1mCompileXIB[0m [1mtagIt/Classes/MainViewController.xib[0m068303969dc2b841^2848ec979dc2b841^-236"2014-03-01 17:58:31.360 Interface Builder Cocoa Touch Tool[20509:303] CFPreferences: user home directory at file:///Users/paulrondeau/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@91"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Classes/MainViewController.xib0000000000000000^903"[1mCompileXIB[0m [1mtagIt/Classes/MainViewController.xib[0m    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/MainViewController.nib /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Classes/MainViewController.xib36"9B6217F9-33B3-4F12-8E90-69B4C3404B44-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default-568h@2x~iphone.png tagIt/Resources/splash/Default-568h@2x~iphone.png
-s415407510.708009
-e415407510.870867
-r1
-xCopyPNGFile
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default-568h@2x~iphone.png
-xtagIt/Resources/splash/Default-568h@2x~iphone.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"[1mCopyPNGFile[0m build/device/tagIt.app/Default-568h@2x~iphone.png tagIt/Resources/splash/Default-568h@2x~iphone.png119"[1mCopyPNGFile[0m build/device/tagIt.app/Default-568h@2x~iphone.png tagIt/Resources/splash/Default-568h@2x~iphone.png535cb5969dc2b841^0af7de969dc2b841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/splash/Default-568h@2x~iphone.png0000000000000000^827"[1mCopyPNGFile[0m build/device/tagIt.app/Default-568h@2x~iphone.png tagIt/Resources/splash/Default-568h@2x~iphone.png    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/splash/Default-568h@2x~iphone.png /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default-568h@2x~iphone.png36"A6EA7FFA-98ED-4187-A18A-286147F743D8-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default-Landscape@2x~ipad.png tagIt/Resources/splash/Default-Landscape@2x~ipad.png
-s415407510.082350
-e415407510.653468
-r1
-xCopyPNGFile
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default-Landscape@2x~ipad.png
-xtagIt/Resources/splash/Default-Landscape@2x~ipad.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"[1mCopyPNGFile[0m build/device/tagIt.app/Default-Landscape@2x~ipad.png tagIt/Resources/splash/Default-Landscape@2x~ipad.png125"[1mCopyPNGFile[0m build/device/tagIt.app/Default-Landscape@2x~ipad.png tagIt/Resources/splash/Default-Landscape@2x~ipad.png5e2f15969dc2b841^554ea7969dc2b841^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/splash/Default-Landscape@2x~ipad.png0000000000000000^839"[1mCopyPNGFile[0m build/device/tagIt.app/Default-Landscape@2x~ipad.png tagIt/Resources/splash/Default-Landscape@2x~ipad.png    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/splash/Default-Landscape@2x~ipad.png /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default-Landscape@2x~ipad.png36"05F89C8A-A21B-48FC-AA75-C4215445FAEB-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default-Landscape~ipad.png tagIt/Resources/splash/Default-Landscape~ipad.png
-s415407510.094634
-e415407510.322241
-r1
-xCopyPNGFile
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default-Landscape~ipad.png
-xtagIt/Resources/splash/Default-Landscape~ipad.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"[1mCopyPNGFile[0m build/device/tagIt.app/Default-Landscape~ipad.png tagIt/Resources/splash/Default-Landscape~ipad.png119"[1mCopyPNGFile[0m build/device/tagIt.app/Default-Landscape~ipad.png tagIt/Resources/splash/Default-Landscape~ipad.png7c5f18969dc2b841^168452969dc2b841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/splash/Default-Landscape~ipad.png0000000000000000^827"[1mCopyPNGFile[0m build/device/tagIt.app/Default-Landscape~ipad.png tagIt/Resources/splash/Default-Landscape~ipad.png    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/splash/Default-Landscape~ipad.png /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default-Landscape~ipad.png36"AEF97679-0EBD-4A33-A681-4AC55E0FAC68-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default-Portrait@2x~ipad.png tagIt/Resources/splash/Default-Portrait@2x~ipad.png
-s415407510.135144
-e415407510.702019
-r1
-xCopyPNGFile
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default-Portrait@2x~ipad.png
-xtagIt/Resources/splash/Default-Portrait@2x~ipad.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"[1mCopyPNGFile[0m build/device/tagIt.app/Default-Portrait@2x~ipad.png tagIt/Resources/splash/Default-Portrait@2x~ipad.png123"[1mCopyPNGFile[0m build/device/tagIt.app/Default-Portrait@2x~ipad.png tagIt/Resources/splash/Default-Portrait@2x~ipad.pngeeb322969dc2b841^2ec7b3969dc2b841^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/splash/Default-Portrait@2x~ipad.png0000000000000000^835"[1mCopyPNGFile[0m build/device/tagIt.app/Default-Portrait@2x~ipad.png tagIt/Resources/splash/Default-Portrait@2x~ipad.png    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/splash/Default-Portrait@2x~ipad.png /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default-Portrait@2x~ipad.png36"84CFB551-DBE2-446D-8947-6C446317F54C-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default-Portrait~ipad.png tagIt/Resources/splash/Default-Portrait~ipad.png
-s415407510.376934
-e415407510.570457
-r1
-xCopyPNGFile
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default-Portrait~ipad.png
-xtagIt/Resources/splash/Default-Portrait~ipad.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"[1mCopyPNGFile[0m build/device/tagIt.app/Default-Portrait~ipad.png tagIt/Resources/splash/Default-Portrait~ipad.png117"[1mCopyPNGFile[0m build/device/tagIt.app/Default-Portrait~ipad.png tagIt/Resources/splash/Default-Portrait~ipad.png469a60969dc2b841^a60a92969dc2b841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/splash/Default-Portrait~ipad.png0000000000000000^823"[1mCopyPNGFile[0m build/device/tagIt.app/Default-Portrait~ipad.png tagIt/Resources/splash/Default-Portrait~ipad.png    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/splash/Default-Portrait~ipad.png /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default-Portrait~ipad.png36"3C2A56D6-4FB0-453A-9200-8E59F1DCBAA1-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default@2x~iphone.png tagIt/Resources/splash/Default@2x~iphone.png
-s415407510.620709
-e415407510.776853
-r1
-xCopyPNGFile
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default@2x~iphone.png
-xtagIt/Resources/splash/Default@2x~iphone.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"[1mCopyPNGFile[0m build/device/tagIt.app/Default@2x~iphone.png tagIt/Resources/splash/Default@2x~iphone.png109"[1mCopyPNGFile[0m build/device/tagIt.app/Default@2x~iphone.png tagIt/Resources/splash/Default@2x~iphone.png8e039f969dc2b841^1adcc6969dc2b841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/splash/Default@2x~iphone.png0000000000000000^807"[1mCopyPNGFile[0m build/device/tagIt.app/Default@2x~iphone.png tagIt/Resources/splash/Default@2x~iphone.png    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/splash/Default@2x~iphone.png /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default@2x~iphone.png36"A9E9FE00-0C20-4E4A-B187-920AEE341A84-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default~iphone.png tagIt/Resources/splash/Default~iphone.png
-s415407510.702417
-e415407510.779344
-r1
-xCopyPNGFile
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default~iphone.png
-xtagIt/Resources/splash/Default~iphone.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"[1mCopyPNGFile[0m build/device/tagIt.app/Default~iphone.png tagIt/Resources/splash/Default~iphone.png103"[1mCopyPNGFile[0m build/device/tagIt.app/Default~iphone.png tagIt/Resources/splash/Default~iphone.pngd0efb3969dc2b841^b589c7969dc2b841^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/splash/Default~iphone.png0000000000000000^795"[1mCopyPNGFile[0m build/device/tagIt.app/Default~iphone.png tagIt/Resources/splash/Default~iphone.png    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/splash/Default~iphone.png /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Default~iphone.png36"522902E7-5C8F-4EFC-96F5-014279ACF8DC-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-40.png tagIt/Resources/icons/icon-40.png
-s415407510.570697
-e415407510.619101
-r1
-xCopyPNGFile
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-40.png
-xtagIt/Resources/icons/icon-40.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"[1mCopyPNGFile[0m build/device/tagIt.app/icon-40.png tagIt/Resources/icons/icon-40.png88"[1mCopyPNGFile[0m build/device/tagIt.app/icon-40.png tagIt/Resources/icons/icon-40.pnga83492969dc2b841^e8869e969dc2b841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-40.png0000000000000000^765"[1mCopyPNGFile[0m build/device/tagIt.app/icon-40.png tagIt/Resources/icons/icon-40.png    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-40.png /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-40.png36"C50182FE-26D5-4F95-A9EE-C6DD554E71EF-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-40@2x.png tagIt/Resources/icons/icon-40@2x.png
-s415407509.951409
-e415407510.011608
-r1
-xCopyPNGFile
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-40@2x.png
-xtagIt/Resources/icons/icon-40@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"[1mCopyPNGFile[0m build/device/tagIt.app/icon-40@2x.png tagIt/Resources/icons/icon-40@2x.png94"[1mCopyPNGFile[0m build/device/tagIt.app/icon-40@2x.png tagIt/Resources/icons/icon-40@2x.pngeaaff3959dc2b841^19ff02969dc2b841^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-40@2x.png0000000000000000^777"[1mCopyPNGFile[0m build/device/tagIt.app/icon-40@2x.png tagIt/Resources/icons/icon-40@2x.png    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-40@2x.png /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-40@2x.png36"77CF5CB1-CE7E-4B2C-83A9-ECA1BA2EF25E-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-50.png tagIt/Resources/icons/icon-50.png
-s415407510.014505
-e415407510.079963
-r1
-xCopyPNGFile
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-50.png
-xtagIt/Resources/icons/icon-50.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"[1mCopyPNGFile[0m build/device/tagIt.app/icon-50.png tagIt/Resources/icons/icon-50.png88"[1mCopyPNGFile[0m build/device/tagIt.app/icon-50.png tagIt/Resources/icons/icon-50.pngf8de03969dc2b841^087214969dc2b841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-50.png0000000000000000^765"[1mCopyPNGFile[0m build/device/tagIt.app/icon-50.png tagIt/Resources/icons/icon-50.png    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-50.png /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-50.png36"E9EFB5C6-E3AD-4BF1-A0A5-C6E81932945B-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-50@2x.png tagIt/Resources/icons/icon-50@2x.png
-s415407510.778465
-e415407510.833299
-r1
-xCopyPNGFile
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-50@2x.png
-xtagIt/Resources/icons/icon-50@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"[1mCopyPNGFile[0m build/device/tagIt.app/icon-50@2x.png tagIt/Resources/icons/icon-50@2x.png94"[1mCopyPNGFile[0m build/device/tagIt.app/icon-50@2x.png tagIt/Resources/icons/icon-50@2x.pngdeaec7969dc2b841^e960d5969dc2b841^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-50@2x.png0000000000000000^777"[1mCopyPNGFile[0m build/device/tagIt.app/icon-50@2x.png tagIt/Resources/icons/icon-50@2x.png    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-50@2x.png /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-50@2x.png36"EBB5583E-2036-42E6-8B18-2BAEA0FA9346-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-60.png tagIt/Resources/icons/icon-60.png
-s415407510.654843
-e415407510.706653
-r1
-xCopyPNGFile
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-60.png
-xtagIt/Resources/icons/icon-60.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"[1mCopyPNGFile[0m build/device/tagIt.app/icon-60.png tagIt/Resources/icons/icon-60.png88"[1mCopyPNGFile[0m build/device/tagIt.app/icon-60.png tagIt/Resources/icons/icon-60.png37c1a7969dc2b841^a81ab5969dc2b841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-60.png0000000000000000^765"[1mCopyPNGFile[0m build/device/tagIt.app/icon-60.png tagIt/Resources/icons/icon-60.png    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-60.png /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-60.png36"C6F8623E-B725-42F8-91CE-3629ED8D0CAC-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-60@2x.png tagIt/Resources/icons/icon-60@2x.png
-s415407510.018597
-e415407510.094076
-r1
-xCopyPNGFile
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-60@2x.png
-xtagIt/Resources/icons/icon-60@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"[1mCopyPNGFile[0m build/device/tagIt.app/icon-60@2x.png tagIt/Resources/icons/icon-60@2x.png94"[1mCopyPNGFile[0m build/device/tagIt.app/icon-60@2x.png tagIt/Resources/icons/icon-60@2x.png88f304969dc2b841^bf8218969dc2b841^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-60@2x.png0000000000000000^777"[1mCopyPNGFile[0m build/device/tagIt.app/icon-60@2x.png tagIt/Resources/icons/icon-60@2x.png    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-60@2x.png /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-60@2x.png36"DB8771F1-5F8B-4753-A68B-21EFD77CDFC9-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-72.png tagIt/Resources/icons/icon-72.png
-s415407509.951769
-e415407510.008235
-r1
-xCopyPNGFile
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-72.png
-xtagIt/Resources/icons/icon-72.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"[1mCopyPNGFile[0m build/device/tagIt.app/icon-72.png tagIt/Resources/icons/icon-72.png88"[1mCopyPNGFile[0m build/device/tagIt.app/icon-72.png tagIt/Resources/icons/icon-72.pngc5c7f3959dc2b841^001d02969dc2b841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-72.png0000000000000000^765"[1mCopyPNGFile[0m build/device/tagIt.app/icon-72.png tagIt/Resources/icons/icon-72.png    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-72.png /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-72.png36"D10A4B64-D6E1-4A43-82B0-4A876360F647-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-72@2x.png tagIt/Resources/icons/icon-72@2x.png
-s415407510.833638
-e415407510.880598
-r1
-xCopyPNGFile
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-72@2x.png
-xtagIt/Resources/icons/icon-72@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"[1mCopyPNGFile[0m build/device/tagIt.app/icon-72@2x.png tagIt/Resources/icons/icon-72@2x.png94"[1mCopyPNGFile[0m build/device/tagIt.app/icon-72@2x.png tagIt/Resources/icons/icon-72@2x.png658ad5969dc2b841^077de1969dc2b841^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-72@2x.png0000000000000000^777"[1mCopyPNGFile[0m build/device/tagIt.app/icon-72@2x.png tagIt/Resources/icons/icon-72@2x.png    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-72@2x.png /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-72@2x.png36"7B7578AB-60ED-4D07-8B07-C9CB2B8129AB-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-76.png tagIt/Resources/icons/icon-76.png
-s415407509.951097
-e415407510.011661
-r1
-xCopyPNGFile
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-76.png
-xtagIt/Resources/icons/icon-76.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"[1mCopyPNGFile[0m build/device/tagIt.app/icon-76.png tagIt/Resources/icons/icon-76.png88"[1mCopyPNGFile[0m build/device/tagIt.app/icon-76.png tagIt/Resources/icons/icon-76.png6c92f3959dc2b841^b00303969dc2b841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-76.png0000000000000000^765"[1mCopyPNGFile[0m build/device/tagIt.app/icon-76.png tagIt/Resources/icons/icon-76.png    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-76.png /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-76.png36"B12BE930-897B-4D5E-BA04-5453A0B98C22-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-76@2x.png tagIt/Resources/icons/icon-76@2x.png
-s415407510.779583
-e415407510.840740
-r1
-xCopyPNGFile
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-76@2x.png
-xtagIt/Resources/icons/icon-76@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"[1mCopyPNGFile[0m build/device/tagIt.app/icon-76@2x.png tagIt/Resources/icons/icon-76@2x.png94"[1mCopyPNGFile[0m build/device/tagIt.app/icon-76@2x.png tagIt/Resources/icons/icon-76@2x.pnge9f1c7969dc2b841^1841d7969dc2b841^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-76@2x.png0000000000000000^777"[1mCopyPNGFile[0m build/device/tagIt.app/icon-76@2x.png tagIt/Resources/icons/icon-76@2x.png    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-76@2x.png /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-76@2x.png36"E859E8BA-5676-4629-B8BA-8329F7F6E7DF-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-small.png tagIt/Resources/icons/icon-small.png
-s415407510.081354
-e415407510.134851
-r1
-xCopyPNGFile
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-small.png
-xtagIt/Resources/icons/icon-small.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"[1mCopyPNGFile[0m build/device/tagIt.app/icon-small.png tagIt/Resources/icons/icon-small.png94"[1mCopyPNGFile[0m build/device/tagIt.app/icon-small.png tagIt/Resources/icons/icon-small.png8c1515969dc2b841^61c422969dc2b841^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-small.png0000000000000000^777"[1mCopyPNGFile[0m build/device/tagIt.app/icon-small.png tagIt/Resources/icons/icon-small.png    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-small.png /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-small.png36"730F49D1-F6EE-4302-9E78-3D4CB975850E-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-small@2x.png tagIt/Resources/icons/icon-small@2x.png
-s415407510.323768
-e415407510.375478
-r1
-xCopyPNGFile
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-small@2x.png
-xtagIt/Resources/icons/icon-small@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"[1mCopyPNGFile[0m build/device/tagIt.app/icon-small@2x.png tagIt/Resources/icons/icon-small@2x.png100"[1mCopyPNGFile[0m build/device/tagIt.app/icon-small@2x.png tagIt/Resources/icons/icon-small@2x.png82fe52969dc2b841^a71f60969dc2b841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-small@2x.png0000000000000000^789"[1mCopyPNGFile[0m build/device/tagIt.app/icon-small@2x.png tagIt/Resources/icons/icon-small@2x.png    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon-small@2x.png /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon-small@2x.png36"AF957A7C-2FA9-4AF7-B213-59B92630CBFC-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon.png tagIt/Resources/icons/icon.png
-s415407509.953420
-e415407510.014204
-r1
-xCopyPNGFile
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon.png
-xtagIt/Resources/icons/icon.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"[1mCopyPNGFile[0m build/device/tagIt.app/icon.png tagIt/Resources/icons/icon.png82"[1mCopyPNGFile[0m build/device/tagIt.app/icon.png tagIt/Resources/icons/icon.pnga130f4959dc2b841^16bd03969dc2b841^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon.png0000000000000000^753"[1mCopyPNGFile[0m build/device/tagIt.app/icon.png tagIt/Resources/icons/icon.png    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon.png /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon.png36"F62CE728-2942-46B1-95E2-10F67CEFD7DE-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCopyPNGFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon@2x.png tagIt/Resources/icons/icon@2x.png
-s415407510.008904
-e415407510.077198
-r1
-xCopyPNGFile
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon@2x.png
-xtagIt/Resources/icons/icon@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"[1mCopyPNGFile[0m build/device/tagIt.app/icon@2x.png tagIt/Resources/icons/icon@2x.png88"[1mCopyPNGFile[0m build/device/tagIt.app/icon@2x.png tagIt/Resources/icons/icon@2x.pnge56002969dc2b841^000014969dc2b841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon@2x.png0000000000000000^765"[1mCopyPNGFile[0m build/device/tagIt.app/icon@2x.png tagIt/Resources/icons/icon@2x.png    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/icons/icon@2x.png /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/icon@2x.png36"2BEF655E-A246-4990-B8C6-B6DDDAC3022B-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCopyStringsFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/de.lproj/Localizable.strings tagIt/Resources/de.lproj/Localizable.strings
-s415407510.077524
-e415407510.081316
-r1
-xCopyStringsFile
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/de.lproj/Localizable.strings
-xtagIt/Resources/de.lproj/Localizable.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy tagIt/Resources/de.lproj/Localizable.strings120"[1mCopyStringsFile[0m build/device/tagIt.app/de.lproj/Localizable.strings tagIt/Resources/de.lproj/Localizable.stringsa0fa13969dc2b841^4cc314969dc2b841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/de.lproj/Localizable.strings0000000000000000^739"[1mCopyStringsFile[0m build/device/tagIt.app/de.lproj/Localizable.strings tagIt/Resources/de.lproj/Localizable.strings    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/de.lproj -- tagIt/Resources/de.lproj/Localizable.strings36"F3A698C7-78A3-4A7C-AFE9-B9776CB59561-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCopyStringsFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/en.lproj/Localizable.strings tagIt/Resources/en.lproj/Localizable.strings
-s415407510.012713
-e415407510.015299
-r1
-xCopyStringsFile
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/en.lproj/Localizable.strings
-xtagIt/Resources/en.lproj/Localizable.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy tagIt/Resources/en.lproj/Localizable.strings120"[1mCopyStringsFile[0m build/device/tagIt.app/en.lproj/Localizable.strings tagIt/Resources/en.lproj/Localizable.strings486c03969dc2b841^d31504969dc2b841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/Resources/en.lproj/Localizable.strings0000000000000000^739"[1mCopyStringsFile[0m build/device/tagIt.app/en.lproj/Localizable.strings tagIt/Resources/en.lproj/Localizable.strings    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/en.lproj -- tagIt/Resources/en.lproj/Localizable.strings36"59CAC135-D31C-466B-B5D9-4EB7CCD65084-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/device/tagIt.app/ResourceRules.plist
-s415407509.626141
-e415407509.630438
-r1
-xCpResource
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
-xbuild/device/tagIt.app/ResourceRules.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/device/tagIt.app/ResourceRules.plist183"[1mCpResource[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/device/tagIt.app/ResourceRules.plist6877a0959dc2b841^e964a1959dc2b841^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/ResourceRules.plist0034cc16dfffdf42^889"[1mCpResource[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/device/tagIt.app/ResourceRules.plist    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app36"EEB20C95-4F8B-4C3A-BC94-42312BC206BC-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CCpResource tagIt/config.xml build/device/tagIt.app/config.xml
-r0
-
-CGenerateDSYMFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app.dSYM /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/tagIt
-s415407512.544164
-e415407512.593447
-r1
-xGenerateDSYMFile
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app.dSYM
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/tagIt
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Generate /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app.dSYM89"[1mGenerateDSYMFile[0m [1mbuild/device/tagIt.app.dSYM[0m build/device/tagIt.app/tagIt06648b989dc2b841^73f197989dc2b841^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app.dSYM0034cc16dfffdf42^746"[1mGenerateDSYMFile[0m [1mbuild/device/tagIt.app.dSYM[0m build/device/tagIt.app/tagIt    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/tagIt -o /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app.dSYM36"05B7425A-F776-4510-88D6-DCDC4439C0BC-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CLd /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/tagIt normal armv7
-s415407512.397073
-e415407512.543117
-r1
-xLd
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/tagIt
-xnormal
-xarmv7
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/tagIt.LinkFileList
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/libCordova.a
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/main.o
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/AppDelegate.o
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/MainViewController.o
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libkeymgr.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Link /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/tagIt52"[1mLd[0m build/device/tagIt.app/tagIt normal armv7c9cc65989dc2b841^1c0a8b989dc2b841^---0#0#1#--1701"[1mLd[0m build/device/tagIt.app/tagIt normal armv7    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device -F/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device -filelist /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/tagIt.LinkFileList -dead_strip -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework AssetsLibrary /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -Xlinker -dependency_info -Xlinker /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/tagIt_dependency_info.dat -o /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/tagIt36"85BC0E1B-0528-4C8B-B996-EF4887556C0A-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CPhaseScriptExecution Copy\ www\ directory /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Script-304B58A110DAC018002A0835.sh
-s415407509.633448
-e415407509.950008
-r1
-xPhaseScriptExecution
-xCopy www directory
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Script-304B58A110DAC018002A0835.sh
-o
-oreal	0m0.274s
-ouser	0m0.095s
-osys	0m0.152s
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'129"[1mPhaseScriptExecution[0m Copy\ www\ directory build/tagIt.build/Debug-iphoneos/tagIt.build/Script-304B58A110DAC018002A0835.sh8f8aa3959dc2b841^1f4bf3959dc2b841^-42"real	0m0.274suser	0m0.095ssys	0m0.152s3(21%IDEActivityLogMessage2@14"real	0m0.274s-415407509#1#14#-0#-----2@14"user	0m0.095s-415407509#15#14#-0#-----2@13"sys	0m0.152s-415407509#29#13#-0#-----0#0#1#--21876"[1mPhaseScriptExecution[0m Copy\ www\ directory build/tagIt.build/Debug-iphoneos/tagIt.build/Script-304B58A110DAC018002A0835.sh    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER paulrondeau    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv ALWAYS_USE_SEPARATE_HEADERMAPS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS armv7    setenv ARCHS_STANDARD "armv7 armv7s"    setenv ARCHS_STANDARD_32_64_BIT "armv7 armv7s"    setenv ARCHS_STANDARD_32_BIT "armv7 armv7s"    setenv ARCHS_STANDARD_64_BIT arm64    setenv ARCHS_STANDARD_INCLUDING_64_BIT "armv7 armv7s arm64"    setenv ARCHS_UNIVERSAL_IPHONE_OS "armv7 armv7s"    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/paulrondeau/Projects/tagIt/platforms/ios/build    setenv BUILD_ROOT /Users/paulrondeau/Projects/tagIt/platforms/ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device    setenv CACHE_ROOT /var/folders/46/d2xtp35d15ngpvphpl8xm6ch0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode    setenv CCHROOT /var/folders/46/d2xtp35d15ngpvphpl8xm6ch0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLANG_WARN_BOOL_CONVERSION YES    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_EMPTY_BODY YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED YES    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneOSCodeSignContext    setenv CODE_SIGN_IDENTITY "iPhone Developer"    setenv COLOR_DIAGNOSTICS YES    setenv COMBINE_HIDPI_IMAGES NO    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/46/d2xtp35d15ngpvphpl8xm6ch0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device    setenv CONFIGURATION_TEMP_DIR /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos    setenv CONTENTS_FOLDER_PATH tagIt.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CREATE_INFOPLIST_SECTION_IN_BINARY NO    setenv CURRENT_ARCH armv7    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEFAULT_KEXT_INSTALL_PATH /System/Library/Extensions    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH tagIt.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/tagIt.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME tagIt.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH tagIt.app/Executables    setenv EXECUTABLE_FOLDER_PATH tagIt.app    setenv EXECUTABLE_NAME tagIt    setenv EXECUTABLE_PATH tagIt.app/tagIt    setenv FILE_LIST /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH tagIt.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME tagIt.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER tagIt/tagIt-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNDECLARED_SELECTOR YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_FUNCTION YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/include \"/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/usr/local/lib/include\" \"/Users/paulrondeau/Projects/tagIt/platforms/ios/build/UninstalledProducts/include\" \"/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE tagIt/tagIt-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH tagIt.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH tagIt.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/tagIt.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER paulrondeau    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/tagIt.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH tagIt.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_DEPENDENCY_INFO_FILE /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/tagIt_dependency_info.dat    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/tagIt-LinkMap-normal-armv7.txt    setenv LD_NO_PIE NO    setenv LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER YES    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_KEXT_INSTALL_PATH /Library/Extensions    setenv LIBRARY_SEARCH_PATHS "/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv7 /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal/armv7/tagIt.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH tagIt.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 13C64    setenv MAC_OS_X_VERSION_ACTUAL 1092    setenv MAC_OS_X_VERSION_MAJOR 1090    setenv MAC_OS_X_VERSION_MINOR 0902    setenv MODULE_CACHE_DIR /var/folders/46/d2xtp35d15ngpvphpl8xm6ch0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/ModuleCache    setenv NATIVE_ARCH armv7    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Objects-normal    setenv OBJROOT /Users/paulrondeau/Projects/tagIt/platforms/ios/build    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load \"/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/libCordova.a\" -ObjC"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin:/usr/local/share/npm/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH tagIt.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/PkgInfo    setenv PKGINFO_PATH tagIt.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLATFORM_PREFERRED_ARCH arm64    setenv PLATFORM_PRODUCT_BUILD_VERSION 11B508    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH tagIt.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH tagIt.app/PrivateHeaders    setenv PRODUCT_NAME tagIt    setenv PRODUCT_SETTINGS_PATH /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/tagIt-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT tagIt    setenv PROJECT_DERIVED_FILE_DIR /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/DerivedSources    setenv PROJECT_DIR /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PROJECT_FILE_PATH /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt.xcodeproj    setenv PROJECT_NAME tagIt    setenv PROJECT_TEMP_DIR /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build    setenv PROJECT_TEMP_ROOT /Users/paulrondeau/Projects/tagIt/platforms/ios/build    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH tagIt.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device "    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH tagIt.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk    setenv SDK_NAME iphoneos7.0    setenv SDK_PRODUCT_BUILD_VERSION 11B508    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH tagIt.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/46/d2xtp35d15ngpvphpl8xm6ch0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH tagIt.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv SRCROOT /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1,2    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/paulrondeau/Projects/tagIt/platforms/ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_KEXT_INSTALL_PATH /System/Library/Extensions    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME tagIt    setenv TARGET_BUILD_DIR /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device    setenv TARGET_NAME tagIt    setenv TARGET_TEMP_DIR /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build    setenv TEMP_DIR /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build    setenv TEMP_FILES_DIR /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build    setenv TEMP_FILE_DIR /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build    setenv TEMP_ROOT /Users/paulrondeau/Projects/tagIt/platforms/ios/build    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH tagIt.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER paulrondeau    setenv USER_APPS_DIR /Users/paulrondeau/Applications    setenv USER_LIBRARY_DIR /Users/paulrondeau/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "armv7 armv7s"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH tagIt.app/version.plist    setenv VERSION_INFO_BUILDER paulrondeau    setenv VERSION_INFO_FILE tagIt_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:tagIt  PROJECT:tagIt-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME tagIt.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 5A3005    setenv XCODE_VERSION_ACTUAL 0502    setenv XCODE_VERSION_MAJOR 0500    setenv XCODE_VERSION_MINOR 0500    setenv XPCSERVICES_FOLDER_PATH tagIt.app/XPCServices    setenv YACC yacc    setenv arch armv7    setenv diagnostic_message_length 96    setenv variant normal    /bin/sh -c /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/Script-304B58A110DAC018002A0835.sh36"574B3384-D631-457C-9CC2-AF1082A4674A-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CProcessInfoPlistFile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Info.plist /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/tagIt-Info.plist
-s415407509.622355
-e415407509.625505
-r1
-xProcessInfoPlistFile
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Info.plist
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/tagIt-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Process /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/tagIt-Info.plist93"[1mProcessInfoPlistFile[0m build/device/tagIt.app/Info.plist [1mtagIt/tagIt-Info.plist[0m2e769f959dc2b841^d0d3a0959dc2b841^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/tagIt-Info.plist0000000000000000^935"[1mProcessInfoPlistFile[0m build/device/tagIt.app/Info.plist [1mtagIt/tagIt-Info.plist[0m    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    builtin-infoPlistUtility /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/tagIt-Info.plist -genpkginfo /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/ResourceRules.plist -o /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/Info.plist36"F85B48CC-94C7-4F41-AB43-9D6AF4E87AD8-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CProcessPCH /var/folders/46/d2xtp35d15ngpvphpl8xm6ch0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/tagIt-Prefix-dixyautxpaoypbfvxwfdkzllmezj/tagIt-Prefix.pch.pch tagIt/tagIt-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s415407511.924030
-e415407512.297034
-r1
-xProcessPCH
-x/var/folders/46/d2xtp35d15ngpvphpl8xm6ch0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/tagIt-Prefix-dixyautxpaoypbfvxwfdkzllmezj/tagIt-Prefix.pch.pch
-xtagIt/tagIt-Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/tagIt-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile tagIt/tagIt-Prefix.pch291"[1mProcessPCH[0m /var/folders/46/d2xtp35d15ngpvphpl8xm6ch0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/tagIt-Prefix-dixyautxpaoypbfvxwfdkzllmezj/tagIt-Prefix.pch.pch tagIt/tagIt-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerc8b6ec979dc2b841^f60d4c989dc2b841^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/tagIt-Prefix.pch0000000000000000^3644"[1mProcessPCH[0m /var/folders/46/d2xtp35d15ngpvphpl8xm6ch0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/tagIt-Prefix-dixyautxpaoypbfvxwfdkzllmezj/tagIt-Prefix.pch.pch tagIt/tagIt-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=96 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/tagIt-generated-files.hmap -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/tagIt-own-target-headers.hmap -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/tagIt-all-target-headers.hmap -iquote /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/tagIt-project-headers.hmap -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/include -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/usr/local/lib/include -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/UninstalledProducts/include -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/DerivedSources/armv7 -I/Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/DerivedSources -F/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device --serialize-diagnostics /var/folders/46/d2xtp35d15ngpvphpl8xm6ch0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/tagIt-Prefix-dixyautxpaoypbfvxwfdkzllmezj/tagIt-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/46/d2xtp35d15ngpvphpl8xm6ch0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/tagIt-Prefix-dixyautxpaoypbfvxwfdkzllmezj/tagIt-Prefix.pch.d -c /Users/paulrondeau/Projects/tagIt/platforms/ios/tagIt/tagIt-Prefix.pch -o /var/folders/46/d2xtp35d15ngpvphpl8xm6ch0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/tagIt-Prefix-dixyautxpaoypbfvxwfdkzllmezj/tagIt-Prefix.pch.pch36"8D0AC835-FAE1-4B53-97E8-0209C7CF469C-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/tagIt.xcent
-s415407512.602289
-e415407512.603980
-r1
-xProcessProductPackaging
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/tagIt.xcent
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection217"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist [1mbuild/tagIt.build/Debug-iphoneos/tagIt.build/tagIt.xcent[0m217"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist [1mbuild/tagIt.build/Debug-iphoneos/tagIt.build/tagIt.xcent[0m20449a989dc2b841^069f9a989dc2b841^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/tagIt.xcent0034cc16dfffdf42^909"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist [1mbuild/tagIt.build/Debug-iphoneos/tagIt.build/tagIt.xcent[0m    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/paulrondeau/Projects/tagIt/platforms/ios/build/tagIt.build/Debug-iphoneos/tagIt.build/tagIt.xcent36"78DD0BF5-AD30-4C2C-8BFB-B681431BF5E2-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CProcessProductPackaging /Users/paulrondeau/Library/MobileDevice/Provisioning\ Profiles/30597D63-BDBD-44D0-A6AF-761BD8F2C27D.mobileprovision /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/embedded.mobileprovision
-s415407512.594049
-e415407512.595233
-r1
-xProcessProductPackaging
-x/Users/paulrondeau/Library/MobileDevice/Provisioning Profiles/30597D63-BDBD-44D0-A6AF-761BD8F2C27D.mobileprovision
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/embedded.mobileprovision
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection203"[1mProcessProductPackaging[0m /Users/paulrondeau/Library/MobileDevice/Provisioning\ Profiles/30597D63-BDBD-44D0-A6AF-761BD8F2C27D.mobileprovision [1mbuild/device/tagIt.app/embedded.mobileprovision[0m203"[1mProcessProductPackaging[0m /Users/paulrondeau/Library/MobileDevice/Provisioning\ Profiles/30597D63-BDBD-44D0-A6AF-761BD8F2C27D.mobileprovision [1mbuild/device/tagIt.app/embedded.mobileprovision[0m232e98989dc2b841^1b6298989dc2b841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/embedded.mobileprovision0034cc16dfffdf42^855"[1mProcessProductPackaging[0m /Users/paulrondeau/Library/MobileDevice/Provisioning\ Profiles/30597D63-BDBD-44D0-A6AF-761BD8F2C27D.mobileprovision [1mbuild/device/tagIt.app/embedded.mobileprovision[0m    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    builtin-productPackagingUtility /Users/paulrondeau/Library/MobileDevice/Provisioning\ Profiles/30597D63-BDBD-44D0-A6AF-761BD8F2C27D.mobileprovision -o /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app/embedded.mobileprovision36"BE6136E3-31C7-4138-BE28-84AE6EFA34C1-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-
-CTouch /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app
-s415407512.596862
-e415407512.601758
-r1
-xTouch
-x/Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Touch /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app36"[1mTouch[0m build/device/tagIt.app1ade98989dc2b841^670d9a989dc2b841^---0#0#1#--530"[1mTouch[0m build/device/tagIt.app    cd /Users/paulrondeau/Projects/tagIt/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/lib/node_modules/coffee-script/bin:/Users/paulrondeau/Oanda/arcanist/bin/:/usr/local/share/npm/bin"    /usr/bin/touch -c /Users/paulrondeau/Projects/tagIt/platforms/ios/build/device/tagIt.app36"54738F5C-8C80-4A30-9585-57A2DE858F25-
-b49E4D306-3845-4848-95D3-CF6A8F3B3642
-

@@ -41,6 +41,7 @@
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		DC6C94E1502A4393BD7A8E41 /* CDVJpegHeaderWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEAC3F68F794CEC84590C5E /* CDVJpegHeaderWriter.m */; };
 		DCE6527F027D453FA85A4127 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79766C89F4C34FB69C4CF51B /* ImageIO.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		56A87D2769C442518550CAFA /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C48A06552F44057B707317A /* CDVLocation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +112,8 @@
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = tagIt/config.xml; sourceTree = "<group>"; };
+		2C48A06552F44057B707317A /* CDVLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVLocation.m"; path = "org.apache.cordova.geolocation/CDVLocation.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		EF2536A524004D638F3A8DE7 /* CDVLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLocation.h"; path = "org.apache.cordova.geolocation/CDVLocation.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +241,8 @@
 				A890CA4E361B4F5090434F12 /* CDVCamera.h */,
 				B85BE2FF97864BDAAF2A248E /* CDVJpegHeaderWriter.h */,
 				7D667A0A7D614768ADEDDB95 /* CDVExif.h */,
+				2C48A06552F44057B707317A /* CDVLocation.m */,
+				EF2536A524004D638F3A8DE7 /* CDVLocation.h */,
 			);
 			name = Plugins;
 			path = tagIt/Plugins;
@@ -434,6 +439,7 @@
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				71B0D3E4CA094DFEA6CB508E /* CDVCamera.m in Sources */,
 				DC6C94E1502A4393BD7A8E41 /* CDVJpegHeaderWriter.m in Sources */,
+				56A87D2769C442518550CAFA /* CDVLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -36,6 +36,7 @@ var app = {
         document.addEventListener('touchmove', function(e) {
             e.preventDefault();
         }, false);
+        Parse.initialize("DkJYCPmhArcOfQwCUpgj1MB7fNl5f9fliWfhaDLO", "QblvxkjvSXjU3iVMQIJkYqYE99X26dGWTCo6Qp0b");
         app.receivedEvent('deviceready');
     },
     // Update DOM on a Received Event
@@ -53,6 +54,12 @@ var app = {
         $('.headerLeft').on('touchstart', app.navigateLeft);
         $('.headerRight').on('touchstart', app.navigateRight);
         $('.canIcon').on('touchstart', takePicture);
+        $('confirmDialogYes').on('touchstart', function(){
+
+        });
+        $('confirmDialogNo').on('touchstart', function(){
+
+        });
     },
     navigateLeft: function(){
         curPage = myScroll.currentPage.pageX;
@@ -70,5 +77,6 @@ function addOverlay(){
     $('#confirmOverlay').addClass('show');
 }
 function removeOverlay(){
+    $('#cameraImageUnderlay').removeClass('show');
     $('#confirmOverlay').removeClass('show');
 }

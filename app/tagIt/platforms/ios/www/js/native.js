@@ -3,9 +3,9 @@ function takePicture() {
 		destinationType: Camera.DestinationType.FILE_URI
 	});
 }
-
+var imageURI;
 function takePictureSuccessCallback(imageURI) {
-	var url = "url('" + imageURI + "')";
+	url = "url('" + imageURI + "')";
 	$('#cameraImageUnderlay').css('background-image', url);
 	addOverlay();
 }

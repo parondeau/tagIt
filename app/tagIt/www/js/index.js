@@ -77,5 +77,6 @@ function addOverlay(){
     $('#confirmOverlay').addClass('show');
 }
 function removeOverlay(){
+    $('#cameraImageUnderlay').removeClass('show');
     $('#confirmOverlay').removeClass('show');
 }

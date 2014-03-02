@@ -20,9 +20,9 @@ function getFeed(num, set) {
         success: function (results) {
             callback(null, results);
         },
-        error: function (results) {
+        error: function (error) {
             //iPhone.selfDestruct();
-            callback("error!", results);
+            callback("error!", error);
         }
     });
 }
@@ -48,9 +48,9 @@ function getMap(num, loc, km, callback) {
         success: function (results) {
             callback(null, results);
         },
-        error: function (results) {
+        error: function (error) {
             //iPhone.selfDestruct();
-            callback("error!", results);
+            callback("error!", error);
         }
     });
 }

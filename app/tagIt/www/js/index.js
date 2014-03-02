@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-Parse.initialize("DkJYCPmhArcOfQwCUpgj1MB7fNl5f9fliWfhaDLO", "QblvxkjvSXjU3iVMQIJkYqYE99X26dGWTCo6Qp0b");
+Parse.initialize("d2P6NpJxb2HofUqW4a0lWGy4X9Pbo89Ie8SMX8V7", "rZJ8Wj9Yb0uildXRF9dZSjsm2pgJz43EQVd9prDv");
 var myScroll;
 var app = {
     // Application Constructor

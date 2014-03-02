@@ -54,10 +54,8 @@ var app = {
         $('.headerLeft').on('touchstart', app.navigateLeft);
         $('.headerRight').on('touchstart', app.navigateRight);
         $('.canIcon').on('touchstart', takePicture);
-        $('confirmDialogYes').on('touchstart', function(){
-
-        });
-        $('confirmDialogNo').on('touchstart', function(){
+        $('#confirmDialogYes').on('touchstart', getLocation);
+        $('#confirmDialogNo').on('touchstart', function(){
 
         });
     },
@@ -79,4 +77,13 @@ function addOverlay(){
 function removeOverlay(){
     $('#cameraImageUnderlay').removeClass('show');
     $('#confirmOverlay').removeClass('show');
+}
+
+function getLocation() {
+    navigator.geolocation.getCurrentPosition(geolocationSuccess);
+}
+
+function geolocationSuccess(pos) {
+    var loc = new Parse.GeoPoint(pos.coords.latitude, pos.coords.longitude);
+    pushTag(imageURI, "image.jpg", loc);
 }

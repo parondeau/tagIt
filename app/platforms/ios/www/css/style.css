@@ -1,0 +1,24 @@
+#wrapper{
+    width: 320px;
+    margin: 0 auto;
+    position: relative;
+    overflow-x: scroll;
+    height: 568px;
+}
+#feed, #camera, #map{
+    width: 320px;
+    height: 568px;
+    border: 1px solid red;
+    position: absolute;
+}
+#camera{
+    position: absolute;
+    right: -320px;
+}
+#map{
+    position: absolute;
+    left: -322px;
+}
+#graffiti-image{
+    
+}

@@ -1,14 +1,14 @@
 function takePicture() {
-	navigator.camera.getPicture(onSuccess, onFail, { quality: 50,
-		destinationType: Camera.DestinationType.DATA_URL
+	navigator.camera.getPicture(takePictureSuccessCallback, takePictureSuccessError, { quality: 50,
+		destinationType: Camera.DestinationType.FILE_URI
 	});
 }
 
-function onSuccess(imageData) {
-	var image = document.getElementById('myImage');
-	image.src = "data:image/jpeg;base64," + imageData;
+function takePictureSuccessCallback(imageURI) {
+	var image = document.getElementById('cameraContainer');
+	image.style.background = imageURI
 }
 
-function onFail(message) {
+function takePictureSuccessError(message) {
 	alert('Failed because: ' + message);
 }

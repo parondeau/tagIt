@@ -1,24 +1,121 @@
-#wrapper{
+@font-face {
+    font-family: Pacifico;
+    src: url(../fonts/Pacifico.ttf);
+}
+body {
+    height:548px;
+    width:100%;
+    margin:0px;
+    margin-top: 20px;
+    padding:0px;
+    font-size: 17px;
+    font-family: Pacifico, Helvetica, sans-serif;
+    font-weight: 100;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+#wrapper {
+    height: 548px;
     width: 320px;
-    margin: 0 auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    display: -webkit-box;
+    text-align: center;
+}
+#wrapper #scroller {
+    height: 548px;
+    width: 960px;
+    display: -webkit-box;
+    position: absolute;
+    z-index: 1;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+}
+#wrapper > #scroller > div {
+    height: 548px;
+    width: 320px;
+    margin: 0;
+    background-color: #aaa;
+}
+#wrapper > #scroller > div:first-child {
+    margin-left: 0;
+}
+#wrapper > #scroller > div:last-child {
+    margin-right: 0;
+}
+.header{
+    background-color: rgba(255,255,255,0.2);
+    padding-bottom: 5px;
     position: relative;
-    overflow-x: scroll;
-    height: 568px;
 }
-#feed, #camera, #map{
-    width: 320px;
-    height: 568px;
-    border: 1px solid red;
+h1.tagIt {
+    margin: 0;
+    font-size: 21px;
+    color: rgb(198,46,46);
+    text-shadow: 1px 0px 1px #333;
+}
+.circleHeader {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 9px;
+}
+.circleHeader > div {
+    height: 100%;
+    background-size: 69%;
+    background-position: 3px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.headerLeft {
     position: absolute;
+    left: 0;
 }
-#camera{
+.headerRight {
     position: absolute;
-    right: -320px;
+    right: 0;
 }
-#map{
-    position: absolute;
-    left: -322px;
+.circleHeader > div.mapIcon {
+    background-image: url(../img/map.png);
 }
-#graffiti-image{
-    
+.circleHeader > div.feedIcon {
+    background-image: url(../img/feed.png);
+    background-size: 54%;
+    background-position: 6px 7px;
+}
+.circleHeader > div.cameraIcon {
+    background-image: url(../img/camera.png);
+    background-size: 62%;
+    background-position: 5px 5px;
+}
+.canIcon {
+    height: 60px;
+    width: 60px;
+    margin: 425px auto;
+    background-image: url(../img/can.png);
+    background-size: 39%;
+    background-position: 19px 4px;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    border-radius: 35px;
+}
+#cameraContainer {
+    background-size: 100%;
+    background-repeat: no-repeat;
 }

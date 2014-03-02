@@ -1,4 +1,4 @@
-function initialize() {
+function mapInitialize() {
 	var mapOptions = {
 		center: new google.maps.LatLng(43.646467, -79.400646),
 		zoom: 8
@@ -10,8 +10,20 @@ function initialize() {
 		if (err) {
 			console.log(err);
 		} else {
-			console.log(results);
+			results.forEach(function(result) {
+				console.log(result.attributes.location._longitude);
+
+				var marker = new google.maps.Marker({
+				    position: new google.maps.LatLng(result.attributes.location._longitude, result.attributes.location._latitude),
+				    title:"Hello World!"
+				});
+
+				// To add the marker to the map, call setMap();
+				marker.setMap(map);
+			});
 		}
 	});
 }
-google.maps.event.addDomListener(window, 'load', initialize);
+
+
+google.maps.event.addDomListener(window, 'load', mapInitialize);

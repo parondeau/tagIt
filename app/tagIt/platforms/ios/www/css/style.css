@@ -198,3 +198,6 @@ h1.tagIt {
 #confirmDialog span:hover, #confirmDialog span:focus, #confirmDialog span:active {
     color: white;
 }
+#map-canvas {
+    height: 100%;
+}

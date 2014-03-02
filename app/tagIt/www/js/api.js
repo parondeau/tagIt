@@ -1,13 +1,13 @@
 /*
-*Params
-*num: integer			- number of results to return - defaults to 20
-*set: integer			- set of 'num' results to retrieve. (i.e. allows skipping a previously retrieved set)
-*ranged: boolean		- specify whether results should be filtered based on proximity
-*loc: Parse.GeoPoint	- specify user location for map - defaults to a location in Toronto
-*km: integer			- specify distance from loc over which to find results - defaults to 5
-*
-*Return - probably a Parse.Object, but it's javascript so who knows!? Empty if query fails.
-*/
+ *Params
+ *num: integer			- number of results to return - defaults to 20
+ *set: integer			- set of 'num' results to retrieve. (i.e. allows skipping a previously retrieved set)
+ *ranged: boolean		- specify whether results should be filtered based on proximity
+ *loc: Parse.GeoPoint	- specify user location for map - defaults to a location in Toronto
+ *km: integer			- specify distance from loc over which to find results - defaults to 5
+ *
+ *Return - probably a Parse.Object, but it's javascript so who knows!? Empty if query fails.
+ */
 function getFeed(num, set) {
     var Tags = Parse.Object.extend("Tags");
     var query = new Parse.Query(Tags);
@@ -16,6 +16,7 @@ function getFeed(num, set) {
 
     query.limit(num);
     query.skip(set * num);
+    query.doesNotExist("image");
     query.find({
         success: function (results) {
             return results;

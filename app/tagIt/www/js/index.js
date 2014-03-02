@@ -33,7 +33,7 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-        document.addEventListener('touchmove', function (e) {
+        document.addEventListener('touchmove', function(e) {
             e.preventDefault();
         }, false);
         app.receivedEvent('deviceready');
@@ -50,17 +50,31 @@ var app = {
         app.setupClickEvents();
     },
     setupClickEvents: function() {
-        $('.headerLeft > div').on('touchstart', app.navigateLeft);
-        $('.headerRight > div').on('touchstart', app.navigateRight);
+        $('.headerLeft').on('touchstart', app.navigateLeft);
+        $('.headerRight').on('touchstart', app.navigateRight);
+        $('.canIcon').on('touchstart', takePicture);
+        $('confirmDialogYes').on('touchstart', function(){
+
+        });
+        $('confirmDialogNo').on('touchstart', function(){
+
+        });
     },
     navigateLeft: function(){
         curPage = myScroll.currentPage.pageX;
         targetPage = curPage - 1;
-        myScroll.goToPage(targetPage, 0, 10000);
+        myScroll.goToPage(targetPage, 0, 1000);
     },
     navigateRight: function(){
         curPage = myScroll.currentPage.pageX;
         targetPage = curPage + 1;
-        myScroll.goToPage(targetPage, 0, 10000);
+        myScroll.goToPage(targetPage, 0, 1000);
     }
 };
+function addOverlay(){
+    $('#cameraImageUnderlay').addClass('show');
+    $('#confirmOverlay').addClass('show');
+}
+function removeOverlay(){
+    $('#confirmOverlay').removeClass('show');
+}

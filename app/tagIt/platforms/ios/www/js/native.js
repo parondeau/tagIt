@@ -5,8 +5,9 @@ function takePicture() {
 }
 
 function takePictureSuccessCallback(imageURI) {
-	var image = document.getElementById('cameraContainer');
-	image.style.background = imageURI
+	var url = "url('" + imageURI + "')";
+	$('#cameraImageUnderlay').css('background-image', url);
+	addOverlay();
 }
 
 function takePictureSuccessError(message) {

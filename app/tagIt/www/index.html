@@ -29,6 +29,15 @@
         <script type="text/javascript" src="js/native.js"></script>
         <script type="text/javascript" src="js/lib/iscroll.js"></script>
         <script type="text/javascript" src="js/api.js"></script>
+        <script type="text/javascript"
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB81Ik7ArDEv1s1JxgbrNFXRzu17KrTx1E&sensor=true">
+        </script> 
+        <script type="text/javascript" src="js/map.js"></script>
+        <style type="text/css">
+          html { height: 100% }
+          body { height: 100%; margin: 0; padding: 0 }
+          #map-canvas { height: 100% }
+        </style>
         <title>Hello World</title>
     </head>
     <body>
@@ -41,7 +50,7 @@
                         </div>
                         <h1 class="tagIt">tagIt</h1>
                     </div>
-                    <div class="graffiti-image"></div>
+                    <div id="map-canvas"></div>
                 </div>
                 <div id="feedContainer">
                     <div class="header">

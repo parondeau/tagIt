@@ -1,29 +1,42 @@
 /*
-*Params
-*num: integer			- number of results to return - defaults to 20
-*set: integer			- set of 'num' results to retrieve. (i.e. allows skipping a previously retrieved set)
-*ranged: boolean		- specify whether results should be filtered based on proximity
-*loc: Parse.GeoPoint	- specify user location for map - defaults to a location in Toronto
-*km: integer			- specify distance from loc over which to find results - defaults to 5
-*
-*Return - probably a Parse.Object, but it's javascript so who knows!? Empty if query fails.
-*/
-function getTags(num, set, ranged, loc, km) {
+ *Params
+ *num: integer			- number of results to return - defaults to 20
+ *set: integer			- set of 'num' results to retrieve. (i.e. allows skipping a previously retrieved set)
+ *ranged: boolean		- specify whether results should be filtered based on proximity
+ *loc: Parse.GeoPoint	- specify user location for map - defaults to a location in Toronto
+ *km: integer			- specify distance from loc over which to find results - defaults to 5
+ *
+ *Return - probably a Parse.Object, but it's javascript so who knows!? Empty if query fails.
+ */
+function getFeed(num, set) {
     var Tags = Parse.Object.extend("Tags");
     var query = new Parse.Query(Tags);
     if (!num) { num = 20; }
+    if (!set) { set = 0; }
+
     query.limit(num);
+    query.skip(set * num);
+    query.doesNotExist("image");
+    query.find({
+        success: function (results) {
+            return results;
+        },
+        error: function (results) {
+            //iPhone.selfDestruct();
+            return;
+        }
+    });
+}
 
-    if (ranged) {
-        if (!loc) { loc = new Parse.GeoPoint(43.646154, -79.400729); }
-        if (!km) { km = 5; }
-        query.withinKilometers("location", loc, km);
-    }
-    else {
-        if (!set) { set = 0; }
-        query.skip(set * num);
-    }
+function getMap(num, loc, km) {
+    var Tags = Parse.Object.extend("Tags");
+    var query = new Parse.Query(Tags);
+    if (!loc) { loc = new Parse.GeoPoint(43.646154, -79.400729); }
+    if (!km) { km = 5; }
+    if (!num) { num = 20; }
 
+    query.limit(num);
+    query.withinKilometers("location", loc, km);
     query.find({
         success: function (results) {
             return results;

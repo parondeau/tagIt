@@ -5,8 +5,8 @@ function takePicture() {
 }
 
 function takePictureSuccessCallback(imageURI) {
-	var image = document.getElementById('myImage');
-	image.src = imageURI
+	var image = document.getElementById('cameraContainer');
+	image.style.background = imageURI
 }
 
 function takePictureSuccessError(message) {

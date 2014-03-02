@@ -20,7 +20,6 @@ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
-        console.log("starting");
     },
     // Bind Event Listeners
     //
@@ -34,18 +33,34 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
+        document.addEventListener('touchmove', function (e) {
+            e.preventDefault();
+        }, false);
         app.receivedEvent('deviceready');
-        takePicture();
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
-
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
-
+        myScroll = new IScroll('#wrapper', {
+            scrollX: true,
+            scrollY: false,
+            momentum: false,
+            snap: true
+        });
         console.log('Received Event: ' + id);
+        app.setupClickEvents();
+    },
+    setupClickEvents: function() {
+        $('.headerLeft > div').on('touchstart', app.navigateLeft);
+        $('.headerRight > div').on('touchstart', app.navigateRight);
+    },
+    navigateLeft: function(){
+        curPage = myScroll.currentPage.pageX;
+        targetPage = curPage - 1;
+        myScroll.goToPage(targetPage, 0, 10000);
+    },
+    navigateRight: function(){
+        curPage = myScroll.currentPage.pageX;
+        targetPage = curPage + 1;
+        myScroll.goToPage(targetPage, 0, 10000);
     }
 };

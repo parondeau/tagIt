@@ -24,38 +24,43 @@
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script type="text/javascript" src="js/native.js"></script>
+        <script type="text/javascript" src="js/lib/iscroll.js"></script>
         <!-- // <script type="text/javascript" src="js/api.js"></script> -->
         <title>Hello World</title>
     </head>
     <body>
         <div id="wrapper">
-            <div id="mapContainer">
-                <div class="header">
-                    <div class="circleHeader headerRight">
-                        <div class="feedIcon"></div>
+            <div id="scroller">
+                <div id="mapContainer">
+                    <div class="header">
+                        <div class="circleHeader headerRight">
+                            <div class="feedIcon"></div>
+                        </div>
+                        <h1 class="tagIt">tagIt</h1>
                     </div>
-                    <h1 class="tagIt">tagIt</h1>
+                    <div class="graffiti-image"></div>
                 </div>
-                <div class="graffiti-image"></div>
-            </div>
-            <div id="feedContainer">
-                <div class="header">
+                <div id="feedContainer">
+                    <div class="header">
+                        <div class="circleHeader headerLeft">
+                            <div class="mapIcon"></div>
+                        </div>
+                        <div class="circleHeader headerRight">
+                            <div class="cameraIcon"></div>
+                        </div>
+                        <h1 class="tagIt">tagIt</h1>
+                    </div>
+                </div>
+                <div id="cameraContainer">
+                    <div class="header">
                     <div class="circleHeader headerLeft">
-                        <div class="mapIcon"></div>
+                            <div class="feedIcon"></div>
+                        </div>
+                        <h1 class="tagIt">tagIt</h1>
                     </div>
-                    <div class="circleHeader headerRight">
-                        <div class="cameraIcon"></div>
-                    </div>
-                    <h1 class="tagIt">tagIt</h1>
-                </div>
-            </div>
-            <div id="cameraContainer">
-                <div class="header">
-                <div class="circleHeader headerLeft">
-                        <div class="feedIcon"></div>
-                    </div>
-                    <h1 class="tagIt">tagIt</h1>
+                    <div class="canIcon"></div>
                 </div>
             </div>
         </div>

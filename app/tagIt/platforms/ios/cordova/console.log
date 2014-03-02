@@ -93,3 +93,64 @@ Terminating in response to SpringBoard's termination.
 2014-03-02 12:12:55.557 tagIt[51813:80b] Unlimited access to network resources
 2014-03-02 12:12:55.816 tagIt[51813:80b] Resetting plugins due to page load.
 2014-03-02 12:12:56.195 tagIt[51813:80b] Finished load of: file:///Users/paulrondeau/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7BDDA4CF-CDD1-457E-8C03-E6A6A818F3B9/tagIt.app/www/index.html
+2014-03-02 13:08:24.487 tagIt[52109:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-02 13:08:24.499 tagIt[52109:80b] Unlimited access to network resources
+2014-03-02 13:08:24.762 tagIt[52109:80b] Resetting plugins due to page load.
+2014-03-02 13:08:25.084 tagIt[52109:80b] Finished load of: file:///Users/paulrondeau/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7BDDA4CF-CDD1-457E-8C03-E6A6A818F3B9/tagIt.app/www/index.html
+2014-03-02 13:09:48.284 tagIt[52109:80b] Resetting plugins due to page load.
+2014-03-02 13:09:48.528 tagIt[52109:80b] Finished load of: file:///Users/paulrondeau/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7BDDA4CF-CDD1-457E-8C03-E6A6A818F3B9/tagIt.app/www/index.html
+2014-03-02 13:12:08.923 tagIt[52256:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-02 13:12:08.934 tagIt[52256:80b] Unlimited access to network resources
+2014-03-02 13:12:09.182 tagIt[52256:80b] Resetting plugins due to page load.
+2014-03-02 13:12:09.517 tagIt[52256:80b] Finished load of: file:///Users/paulrondeau/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7BDDA4CF-CDD1-457E-8C03-E6A6A818F3B9/tagIt.app/www/index.html
+2014-03-02 13:12:47.512 tagIt[52397:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-02 13:12:47.524 tagIt[52397:80b] Unlimited access to network resources
+2014-03-02 13:12:47.801 tagIt[52397:80b] Resetting plugins due to page load.
+2014-03-02 13:12:48.095 tagIt[52397:80b] Finished load of: file:///Users/paulrondeau/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7BDDA4CF-CDD1-457E-8C03-E6A6A818F3B9/tagIt.app/www/index.html
+2014-03-02 13:15:39.971 tagIt[52551:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-02 13:15:39.984 tagIt[52551:80b] Unlimited access to network resources
+2014-03-02 13:15:40.246 tagIt[52551:80b] Resetting plugins due to page load.
+2014-03-02 13:15:40.562 tagIt[52551:80b] Finished load of: file:///Users/paulrondeau/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7BDDA4CF-CDD1-457E-8C03-E6A6A818F3B9/tagIt.app/www/index.html
+2014-03-02 13:15:47.498 tagIt[52551:80b] Camera.getPicture: source type 1 not available.
+2014-03-02 13:15:49.156 tagIt[52551:80b] THREAD WARNING: ['Camera'] took '1658.269287' ms. Plugin should use a background thread.
+2014-03-02 13:15:51.685 tagIt[52551:80b] Resetting plugins due to page load.
+2014-03-02 13:15:51.885 tagIt[52551:80b] Finished load of: file:///Users/paulrondeau/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7BDDA4CF-CDD1-457E-8C03-E6A6A818F3B9/tagIt.app/www/index.html
+2014-03-02 13:22:02.125 tagIt[52709:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-02 13:22:02.137 tagIt[52709:80b] Unlimited access to network resources
+2014-03-02 13:22:02.400 tagIt[52709:80b] Resetting plugins due to page load.
+2014-03-02 13:22:02.735 tagIt[52709:80b] Finished load of: file:///Users/paulrondeau/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7BDDA4CF-CDD1-457E-8C03-E6A6A818F3B9/tagIt.app/www/index.html
+2014-03-02 13:28:35.823 tagIt[52898:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-02 13:28:35.835 tagIt[52898:80b] Unlimited access to network resources
+2014-03-02 13:28:36.102 tagIt[52898:80b] Resetting plugins due to page load.
+2014-03-02 13:28:36.398 tagIt[52898:80b] Finished load of: file:///Users/paulrondeau/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7BDDA4CF-CDD1-457E-8C03-E6A6A818F3B9/tagIt.app/www/index.html
+2014-03-02 13:28:48.658 tagIt[52898:80b] Camera.getPicture: source type 1 not available.
+2014-03-02 13:28:51.691 tagIt[52898:80b] THREAD WARNING: ['Camera'] took '3033.140869' ms. Plugin should use a background thread.
+2014-03-02 13:31:06.420 tagIt[53046:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-02 13:31:06.433 tagIt[53046:80b] Unlimited access to network resources
+2014-03-02 13:31:06.680 tagIt[53046:80b] Resetting plugins due to page load.
+2014-03-02 13:31:06.995 tagIt[53046:80b] Finished load of: file:///Users/paulrondeau/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7BDDA4CF-CDD1-457E-8C03-E6A6A818F3B9/tagIt.app/www/index.html
+2014-03-02 13:31:10.308 tagIt[53046:80b] Resetting plugins due to page load.
+2014-03-02 13:31:10.498 tagIt[53046:80b] Finished load of: file:///Users/paulrondeau/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7BDDA4CF-CDD1-457E-8C03-E6A6A818F3B9/tagIt.app/www/index.html
+2014-03-02 13:33:26.528 tagIt[53200:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-02 13:33:26.543 tagIt[53200:80b] Unlimited access to network resources
+2014-03-02 13:33:26.814 tagIt[53200:80b] Resetting plugins due to page load.
+2014-03-02 13:33:27.127 tagIt[53200:80b] Finished load of: file:///Users/paulrondeau/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7BDDA4CF-CDD1-457E-8C03-E6A6A818F3B9/tagIt.app/www/index.html
+Terminating in response to SpringBoard's termination.
+2014-03-02 13:35:05.755 tagIt[53354:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-02 13:35:05.768 tagIt[53354:80b] Unlimited access to network resources
+2014-03-02 13:35:06.075 tagIt[53354:80b] Resetting plugins due to page load.
+2014-03-02 13:35:06.388 tagIt[53354:80b] Finished load of: file:///Users/paulrondeau/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7BDDA4CF-CDD1-457E-8C03-E6A6A818F3B9/tagIt.app/www/index.html
+2014-03-02 13:36:13.490 tagIt[53500:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-02 13:36:13.502 tagIt[53500:80b] Unlimited access to network resources
+2014-03-02 13:36:13.765 tagIt[53500:80b] Resetting plugins due to page load.
+2014-03-02 13:36:14.135 tagIt[53500:80b] Finished load of: file:///Users/paulrondeau/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7BDDA4CF-CDD1-457E-8C03-E6A6A818F3B9/tagIt.app/www/index.html
+2014-03-02 13:36:16.896 tagIt[53500:80b] Resetting plugins due to page load.
+2014-03-02 13:36:17.107 tagIt[53500:80b] Finished load of: file:///Users/paulrondeau/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7BDDA4CF-CDD1-457E-8C03-E6A6A818F3B9/tagIt.app/www/index.html
+2014-03-02 13:52:20.557 tagIt[53674:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-02 13:52:20.569 tagIt[53674:80b] Unlimited access to network resources
+2014-03-02 13:52:20.821 tagIt[53674:80b] Resetting plugins due to page load.
+2014-03-02 13:52:21.171 tagIt[53674:80b] Finished load of: file:///Users/paulrondeau/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7BDDA4CF-CDD1-457E-8C03-E6A6A818F3B9/tagIt.app/www/index.html
+2014-03-02 13:52:24.410 tagIt[53674:80b] Resetting plugins due to page load.
+2014-03-02 13:52:24.641 tagIt[53674:80b] Finished load of: file:///Users/paulrondeau/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7BDDA4CF-CDD1-457E-8C03-E6A6A818F3B9/tagIt.app/www/index.html
+2014-03-02 13:52:40.863 tagIt[53674:80b] Camera.getPicture: source type 1 not available.
+2014-03-02 13:52:43.097 tagIt[53674:80b] THREAD WARNING: ['Camera'] took '2233.917969' ms. Plugin should use a background thread.

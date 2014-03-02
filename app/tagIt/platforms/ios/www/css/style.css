@@ -52,12 +52,6 @@ body {
     margin: 0;
     background-color: #aaa;
 }
-#wrapper > #scroller > div:first-child {
-    margin-left: 0;
-}
-#wrapper > #scroller > div:last-child {
-    margin-right: 0;
-}
 .header{
     background-color: rgba(255,255,255,0.2);
     padding-bottom: 5px;
@@ -70,11 +64,11 @@ h1.tagIt {
     text-shadow: 1px 0px 1px #333;
 }
 .circleHeader {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     border: 1px solid black;
     border-radius: 20px;
-    margin: 9px;
+    margin: 6px;
 }
 .circleHeader > div {
     height: 100%;
@@ -115,7 +109,47 @@ h1.tagIt {
     border: 2px solid black;
     border-radius: 35px;
 }
-#cameraContainer {
+#cameraContainer #cameraImageUnderlay {
+    display: none;
+    height: 320px;
+    width: 548px;
+    position: absolute;
+    top: 114px;
+    right: -114px;
+    opacity: 0.5;
     background-size: 100%;
     background-repeat: no-repeat;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+}
+#confirmOverlay {
+    height: 100%;
+    width: 320px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+.show {
+    display: block !important;
+}
+#confirmOverlay h1 {
+    position: relative;
+    top: 120px;
+    font-size: 60px;
+}
+#confirmDialog {
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    top: 145px;
+}
+#confirmDialog span {
+    font-size: 31px;
+    font-weight: 400;
+    margin: 0 8px;
+}
+#confirmDialog span:hover, #confirmDialog span:focus, #confirmDialog span:active {
+    color: white;
 }

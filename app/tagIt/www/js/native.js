@@ -3,10 +3,11 @@ function takePicture() {
 		destinationType: Camera.DestinationType.FILE_URI
 	});
 }
-
+var imageURI;
 function takePictureSuccessCallback(imageURI) {
-	var image = document.getElementById('cameraContainer');
-	image.style.background = imageURI
+	url = "url('" + imageURI + "')";
+	$('#cameraImageUnderlay').css('background-image', url);
+	addOverlay();
 }
 
 function takePictureSuccessError(message) {

@@ -1,24 +1,31 @@
-#wrapper{
-    width: 320px;
-    margin: 0 auto;
-    position: relative;
+@font-face {
+    font-family: Pacifico;
+    src: url(../fonts/Pacifico.ttf);
+}
+body {
+    font-size: 17px;
+    font-family: Pacifico, Helvetica, sans-serif;
+    font-weight: 100;
+    box-sizing: border-box;
+}
+#wrapper {
     overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
     height: 568px;
+    width: 960px;
+    display: -webkit-box;
+    text-align: center;
 }
-#feed, #camera, #map{
+#wrapper > div {
     width: 320px;
-    height: 568px;
+    height: 560px;
     border: 1px solid red;
-    position: absolute;
+    margin: 0 2px;
 }
-#camera{
-    position: absolute;
-    right: -320px;
+#camera {
 }
-#map{
-    position: absolute;
-    left: -322px;
+#map {
 }
-#graffiti-image{
-    
+#graffiti-image {
 }

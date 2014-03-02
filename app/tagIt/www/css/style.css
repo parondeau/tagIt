@@ -42,6 +42,12 @@ h1.tagIt {
     border-radius: 20px;
     margin: 9px;
 }
+.circleHeader > div {
+    height: 100%;
+    background-size: 69%;
+    background-position: 3px;
+    background-repeat: no-repeat;
+}
 .headerLeft {
     position: absolute;
     left: 0;
@@ -49,4 +55,17 @@ h1.tagIt {
 .headerRight {
     position: absolute;
     right: 0;
+}
+.circleHeader > div.mapIcon {
+    background-image: url(../img/map.png);
+}
+.circleHeader > div.feedIcon {
+    background-image: url(../img/feed.png);
+    background-size: 54%;
+    background-position: 6px 7px;
+}
+.circleHeader > div.cameraIcon {
+    background-image: url(../img/camera.png);
+    background-size: 62%;
+    background-position: 5px 5px;
 }

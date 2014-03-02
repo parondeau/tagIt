@@ -56,6 +56,7 @@ var app = {
         });
         console.log('Received Event: ' + id);
         app.setupClickEvents();
+        loadFeed();
     },
     setupClickEvents: function() {
         $('.headerLeft').on('touchstart', app.navigateLeft);
@@ -86,11 +87,25 @@ function removeOverlay(){
     $('#confirmOverlay').removeClass('show');
 }
 
-function getLocation() {
+function getLocation(){
     navigator.geolocation.getCurrentPosition(geolocationSuccess);
 }
 
-function geolocationSuccess(pos) {
+function geolocationSuccess(pos){
     var loc = new Parse.GeoPoint(pos.coords.latitude, pos.coords.longitude);
     pushTag(imageURI, "image.jpg", loc);
+}
+function loadFeed(){
+    getFeed(10, 0, populateFeed);
+}
+function populateFeed(err, results){
+    if (err){
+        alert("Oops, something went wrong :(");
+    }
+    else {
+        // results.forEach(function(result){
+        //     var image = "<div style='background-image: url(\'" + result.get("image")._url + "\''></div>"
+        //     $('#feedScroller').append(image);
+        // });
+    }
 }

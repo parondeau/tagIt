@@ -48,16 +48,6 @@ body {
     height: 548px;
     width: 320px;
     margin: 0;
-    background-color: blue;
-}
-#one {
-    background-color: red !important;
-}
-#two {
-    background-color: green !important;
-}
-#three {
-    background-color: yellow !important;
 }
 #wrapper {
     height: 548px;

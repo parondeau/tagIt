@@ -7,7 +7,7 @@
  *
  *Return - Parse.Object extending "Tags" - Empty if query fails
  */
-function getFeed(num, set) {
+function getFeed(num, set, callback) {
     var Tags = Parse.Object.extend("Tags");
     var query = new Parse.Query(Tags);
     if (!num) { num = 20; }
@@ -15,7 +15,7 @@ function getFeed(num, set) {
 
     query.limit(num);
     query.skip(set * num);
-    query.doesNotExist("image");
+    query.exists("image");
     query.find({
         success: function (results) {
             callback(null, results);

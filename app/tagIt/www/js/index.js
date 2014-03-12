@@ -85,9 +85,12 @@ function addOverlay(){
 function removeOverlay(){
     $('#cameraImageUnderlay').removeClass('show');
     $('#confirmOverlay').removeClass('show');
+    $('#cameraImageUnderlay').css('background-image', 'none');
+    $(".spinnerContainer").removeClass("show");
 }
 
 function getLocation(){
+    $(".spinnerContainer").addClass("show");
     navigator.geolocation.getCurrentPosition(geolocationSuccess);
 }
 

@@ -75,7 +75,6 @@ function pushTag(base64Image, loc) {
         tag.save(null, {
             success: function(gameScore) {
                 removeOverlay();
-                $('#cameraImageUnderlay').css('background-image', 'none');
             },
             error: function(gameScore, error) {
                 // Execute any logic that should take place if the save fails.

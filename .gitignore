@@ -2,3 +2,4 @@ platforms/ios/cordova/console.log
 node_modules/
 platforms/ios/.DS_Store
 *.sln
+*.log

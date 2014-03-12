@@ -56,7 +56,7 @@ var app = {
         });
         console.log('Received Event: ' + id);
         app.setupClickEvents();
-        loadFeed();
+        getFeed(10, 0, getFeedCallback)
     },
     setupClickEvents: function() {
         $('.headerLeft').on('touchstart', app.navigateLeft);
@@ -98,14 +98,16 @@ function geolocationSuccess(pos){
 function loadFeed(){
     getFeed(10, 0, populateFeed);
 }
-function populateFeed(err, results){
+function getFeedCallback(err, results){
     if (err){
         alert("Oops, something went wrong :(");
     }
     else {
-        // results.forEach(function(result){
-        //     var image = "<div style='background-image: url(\'" + result.get("image")._url + "\''></div>"
-        //     $('#feedScroller').append(image);
-        // });
+        results.forEach(function(result){
+            var image = "url(" + result.get("image")._url + ")"
+            var imageContainer = "<div></div>"
+            $('#feedScroller').append(imageContainer);
+            $("#feedScroller > *:last-child").css("background-image", image)
+        });
     }
 }

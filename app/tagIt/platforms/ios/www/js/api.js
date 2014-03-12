@@ -7,21 +7,20 @@
  *
  *Return - Parse.Object extending "Tags" - Empty if query fails
  */
-function getFeed(num, set, callback) {
+var skip = 0;
+function getFeed(num, skip, callback) {
     var Tags = Parse.Object.extend("Tags");
     var query = new Parse.Query(Tags);
-    if (!num) { num = 20; }
-    if (!set) { set = 0; }
 
     query.limit(num);
-    query.skip(set * num);
+    query.skip(skip);
+    skip += num;
     query.exists("image");
     query.find({
         success: function (results) {
             callback(null, results);
         },
         error: function (error) {
-            //iPhone.selfDestruct();
             callback("error!", error);
         }
     });

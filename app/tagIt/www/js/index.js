@@ -93,7 +93,7 @@ function getLocation(){
 
 function geolocationSuccess(pos){
     var loc = new Parse.GeoPoint(pos.coords.latitude, pos.coords.longitude);
-    pushTag(imageURI, "image.jpg", loc);
+    pushTag(imageData, loc);
 }
 function loadFeed(){
     getFeed(10, 0, populateFeed);

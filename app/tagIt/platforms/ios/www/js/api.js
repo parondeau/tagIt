@@ -63,18 +63,29 @@ function getMap(num, loc, km, callback) {
 *
 *Return - error info or empty if successful
 */
-function pushTag(file, name, loc) {
-    if (!file || !name) { return "Error: bad file or name parameters"; }
-    var parseFile = new Parse.File(name, file);
+function pushTag(base64Image, loc) {
+    if (!base64Image) { return "Error: bad file parameters"; }
+
+    var parseFile = new Parse.File("image.jpg", { base64: base64Image });
 
     parseFile.save().then(function () {
+        var Tags = new Parse.Object.extend("Tags");
+        var tag = new Tags();
+        tag.set("location", loc);
+        tag.set("image", parseFile);
+        tag.save(null, {
+            success: function(gameScore) {
+                removeOverlay();
+                $('#cameraImageUnderlay').css('background-image', 'none');
+            },
+            error: function(gameScore, error) {
+                // Execute any logic that should take place if the save fails.
+                // error is a Parse.Error with an error code and description.
+                alert('Failed to create new object, with error code: ' + error.description);
+            }
+        });
+
     }, function (error) {
         return "Error: File upload failed";
     });
-
-    var Tags = new Parse.Object.extend("Tags");
-    var tag = new Tags();
-    tag.set("location", loc);
-    tag.set("image", file);
-    tag.save();
 }

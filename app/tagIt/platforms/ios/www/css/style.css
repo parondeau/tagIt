@@ -15,7 +15,7 @@ body {
     overflow-y: hidden;
 }
 #feedWrapper {
-    height: 548px;
+    height: 568px;
     width: 320px;
     overflow-y: auto;
     overflow-x: hidden;
@@ -23,7 +23,7 @@ body {
     text-align: center;
 }
 #feedWrapper #feedScroller {
-    height: 5480px;
+    height: 5040px;
     width: 320px;
     position: absolute;
     z-index: 1;
@@ -45,9 +45,10 @@ body {
     text-size-adjust: none;
 }
 #feedWrapper #feedScroller > div {
-    height: 548px;
+    height: 504px;
     width: 320px;
     margin: 0;
+    margin-bottom: 64px;
 }
 #wrapper {
     height: 548px;
@@ -86,11 +87,28 @@ body {
     width: 320px;
     margin: 0;
     background-color: #aaa;
+    margin-bottom: 64px;
+}
+.first {
+    background-color: blue;
+}
+.second {
+    background-color: red;
+}
+.third {
+    background-color: yellow;
+}
+.fourth {
+    background-color: green;
+}
+.fifth {
+    background-color: purple;
 }
 .header{
     background-color: rgba(255,255,255,0.2);
     padding-bottom: 5px;
     position: relative;
+    z-index: 5;
 }
 h1.tagIt {
     margin: 0;

@@ -16,6 +16,7 @@ function getFeed(num, skip, callback) {
     query.skip(skip);
     skip += num;
     query.exists("image");
+    query.descending("createdAt");
     query.find({
         success: function (results) {
             callback(null, results);

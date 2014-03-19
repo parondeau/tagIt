@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>2323E621-16C0-40B3-9331-A74EEAF17C8C</string>
+	<string>E60CEECA-52AB-415A-BC85-62FDA17A04E0</string>
 	<key>IDESourceControlProjectName</key>
 	<string>tagIt</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>E2F364AD-5313-4BF6-A70D-5F77D9B08199</key>
-		<string>https://github.com/GregMKerr/tagIt.git</string>
+		<key>BFC67B33-9E40-469B-B500-AFAE2729A93B</key>
+		<string>https://github.com/parondeau/tagIt.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>app/tagIt/platforms/ios/tagIt.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>E2F364AD-5313-4BF6-A70D-5F77D9B08199</key>
+		<key>BFC67B33-9E40-469B-B500-AFAE2729A93B</key>
 		<string>../../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/GregMKerr/tagIt.git</string>
+	<string>https://github.com/parondeau/tagIt.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>E2F364AD-5313-4BF6-A70D-5F77D9B08199</string>
+	<string>BFC67B33-9E40-469B-B500-AFAE2729A93B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>E2F364AD-5313-4BF6-A70D-5F77D9B08199</string>
+			<string>BFC67B33-9E40-469B-B500-AFAE2729A93B</string>
 			<key>IDESourceControlWCCName</key>
 			<string>tagIt</string>
 		</dict>

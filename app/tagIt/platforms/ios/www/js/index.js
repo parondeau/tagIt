@@ -90,6 +90,7 @@ function removeOverlay(){
 }
 
 function getLocation(){
+    $('#confirmOverlay').removeClass('show');
     $(".spinnerContainer").addClass("show");
     navigator.geolocation.getCurrentPosition(geolocationSuccess);
 }

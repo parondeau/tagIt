@@ -26,7 +26,7 @@ body {
     height: 0;
     width: 0;
     border-style: solid;
-    border-color: #111 transparent;
+    border-color: #666 transparent;
     border-width: 30px;
     border-radius: 60px;
     position: fixed;
@@ -41,7 +41,7 @@ body {
           animation: spin 1250ms linear infinite;
 }
 #feedWrapper {
-    height: 568px;
+    height: 548px;
     width: 320px;
     overflow-y: auto;
     overflow-x: hidden;
@@ -49,7 +49,7 @@ body {
     text-align: center;
 }
 #feedWrapper #feedScroller {
-    height: 5108px;
+    height: 5112px;
     width: 320px;
     position: absolute;
     z-index: 1;
@@ -71,10 +71,10 @@ body {
     text-size-adjust: none;
 }
 #feedWrapper #feedScroller > div {
-    height: 504px;
+    height: 548px;
     width: 320px;
     margin: 0;
-    margin-bottom: 64px;
+    background-size: 100%;
 }
 #wrapper {
     height: 548px;
@@ -135,6 +135,15 @@ body {
     padding-bottom: 5px;
     position: relative;
     z-index: 5;
+}
+.header.feedHeader {
+    margin-bottom: -41px;
+    padding: 0;
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
 }
 h1.tagIt {
     margin: 0;

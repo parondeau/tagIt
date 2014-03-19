@@ -1,5 +1,7 @@
 function takePicture() {
-	navigator.camera.getPicture(takePictureSuccessCallback, takePictureError, { quality: 100,
+	navigator.camera.getPicture(takePictureSuccessCallback, takePictureError, {
+		quality: 0,
+		cameraDirection: Camera.Direction.BACK,
 		destinationType: Camera.DestinationType.DATA_URL,
 		encodingType: Camera.EncodingType.JPEG
 	});

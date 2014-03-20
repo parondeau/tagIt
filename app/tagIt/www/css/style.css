@@ -82,7 +82,7 @@ body {
     height: 548px;
     width: 320px;
     margin: 0;
-    background-size: 100%;
+    background-size: auto 100%;
 }
 #feedWrapper > #feedScroller > div#loadMoreButton {
     width: 100px;
@@ -219,19 +219,24 @@ h1.tagIt {
     border: 2px solid black;
     border-radius: 35px;
 }
+#cameraContainer {
+    position: relative;
+}
+#cameraText {
+    display: none;
+    position: absolute;
+    top: 45%;
+    margin: 0;
+    width: 100%;
+}
 #cameraContainer #cameraImageUnderlay {
     display: none;
-    height: 320px;
-    width: 548px;
+    height: 548px;
+    width: 320px;
     position: absolute;
-    top: 114px;
-    right: -114px;
     opacity: 0.5;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
 }
 #confirmOverlay {
     height: 100%;

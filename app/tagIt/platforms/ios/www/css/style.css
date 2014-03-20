@@ -3,11 +3,11 @@
     src: url(../fonts/Pacifico.ttf);
 }
 body {
-    height:548px;
-    width:100%;
-    margin:0px;
+    height: 548px;
+    width: 100%;
+    margin: 0px;
     margin-top: 20px;
-    padding:0px;
+    padding: 0px;
     font-size: 17px;
     font-family: Pacifico, Helvetica, sans-serif;
     font-weight: 100;
@@ -82,7 +82,7 @@ body {
     height: 548px;
     width: 320px;
     margin: 0;
-    background-size: 100%;
+    background-size: auto 100%;
 }
 #feedWrapper > #feedScroller > div#loadMoreButton {
     width: 100px;
@@ -155,18 +155,17 @@ body {
     background-color: purple;
 }
 .header{
-    background-color: rgba(255,255,255,0.2);
     padding-bottom: 5px;
     position: relative;
     z-index: 5;
+    background: -webkit-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0)); /* Standard syntax */
 }
 .header.feedHeader {
     margin-bottom: -41px;
     padding: 0;
-    background: -webkit-linear-gradient(black, rgba(0,0,0,0.5)); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(black, rgba(0,0,0,0.5)); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(black, rgba(0,0,0,0.5)); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(black, rgba(0,0,0,0.5)); /* Standard syntax */
 }
 h1.tagIt {
     margin: 0;
@@ -220,19 +219,24 @@ h1.tagIt {
     border: 2px solid black;
     border-radius: 35px;
 }
+#cameraContainer {
+    position: relative;
+}
+#cameraText {
+    display: none;
+    position: absolute;
+    top: 45%;
+    margin: 0;
+    width: 100%;
+}
 #cameraContainer #cameraImageUnderlay {
     display: none;
-    height: 320px;
-    width: 548px;
+    height: 548px;
+    width: 320px;
     position: absolute;
-    top: 114px;
-    right: -114px;
     opacity: 0.5;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
 }
 #confirmOverlay {
     height: 100%;

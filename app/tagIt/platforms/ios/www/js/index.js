@@ -66,9 +66,7 @@ var app = {
         $('.headerRight').on('touchstart', app.navigateRight);
         $('.canIcon').on('touchstart', takePicture);
         $('#confirmDialogYes').on('touchstart', getLocation);
-        $('#confirmDialogNo').on('touchstart', function(){
-
-        });
+        $('#confirmDialogNo').on('touchstart', removeOverlay)
         $('#loadMoreButton').on('touchstart', loadFeed);
         $('.feedHeader').on('touchstart', function(){
             feedScroll.goToPage(0, 0, 1000);
@@ -88,11 +86,13 @@ var app = {
 function addOverlay(){
     $('#cameraImageUnderlay').addClass('show');
     $('#confirmOverlay').addClass('show');
+    $('#cameraText').removeClass('show');
 }
 function removeOverlay(){
     $('#cameraImageUnderlay').removeClass('show');
     $('#confirmOverlay').removeClass('show');
     $('#cameraImageUnderlay').css('background-image', 'none');
+    $('#cameraText').addClass('show');
     $('.spinnerContainer').removeClass('show');
 }
 

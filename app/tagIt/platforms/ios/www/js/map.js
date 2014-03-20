@@ -11,7 +11,7 @@ function mapInitialize() {
 			console.log(err);
 		} else {
 			results.forEach(function(result) {
-				console.log(result.attributes.location._longitude);
+				// console.log(result.attributes.location._longitude);
 
 				var marker = new google.maps.Marker({
 				    position: new google.maps.LatLng(result.attributes.location._longitude, result.attributes.location._latitude),

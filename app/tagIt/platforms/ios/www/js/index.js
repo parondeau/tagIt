@@ -4,20 +4,23 @@
  * distributed with this work for additional information
  * regarding copyright ownership.  The ASF licenses this file
  * to you under the Apache License, Version 2.0 (the
- * "License"); you may not use this file except in compliance
+ * 'License'); you may not use this file except in compliance
  * with the License.  You may obtain a copy of the License at
  *
  * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing,
  * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
  * KIND, either express or implied.  See the License for the
  * specific language governing permissions and limitations
  * under the License.
  */
-Parse.initialize("d2P6NpJxb2HofUqW4a0lWGy4X9Pbo89Ie8SMX8V7", "rZJ8Wj9Yb0uildXRF9dZSjsm2pgJz43EQVd9prDv");
+Parse.initialize('d2P6NpJxb2HofUqW4a0lWGy4X9Pbo89Ie8SMX8V7', 'rZJ8Wj9Yb0uildXRF9dZSjsm2pgJz43EQVd9prDv');
 var myScroll;
+var feedScroll;
+var skip = 0;
+var numToLoad = 10;
 var app = {
     // Application Constructor
     initialize: function() {
@@ -56,7 +59,7 @@ var app = {
         });
         console.log('Received Event: ' + id);
         app.setupClickEvents();
-        getFeed(10, 0, getFeedCallback)
+        loadFeed();
     },
     setupClickEvents: function() {
         $('.headerLeft').on('touchstart', app.navigateLeft);
@@ -65,6 +68,10 @@ var app = {
         $('#confirmDialogYes').on('touchstart', getLocation);
         $('#confirmDialogNo').on('touchstart', function(){
 
+        });
+        $('#loadMoreButton').on('touchstart', loadFeed);
+        $('.feedHeader').on('touchstart', function(){
+            feedScroll.goToPage(0, 0, 1000);
         });
     },
     navigateLeft: function(){
@@ -86,12 +93,12 @@ function removeOverlay(){
     $('#cameraImageUnderlay').removeClass('show');
     $('#confirmOverlay').removeClass('show');
     $('#cameraImageUnderlay').css('background-image', 'none');
-    $(".spinnerContainer").removeClass("show");
+    $('.spinnerContainer').removeClass('show');
 }
 
 function getLocation(){
     $('#confirmOverlay').removeClass('show');
-    $(".spinnerContainer").addClass("show");
+    $('.spinnerContainer').addClass('show');
     navigator.geolocation.getCurrentPosition(geolocationSuccess);
 }
 
@@ -100,18 +107,27 @@ function geolocationSuccess(pos){
     pushTag(imageData, loc);
 }
 function loadFeed(){
-    getFeed(10, 0, populateFeed);
+    $('.spinnerContainer').addClass('show');
+    getFeed(numToLoad, skip, getFeedCallback);
 }
 function getFeedCallback(err, results){
     if (err){
-        alert("Oops, something went wrong :(");
+        alert('Oops, something went wrong :(');
     }
     else {
-        results.forEach(function(result){
-            var image = "url(" + result.get("image")._url + ")"
-            var imageContainer = "<div></div>"
-            $('#feedScroller').append(imageContainer);
-            $("#feedScroller > *:last-child").css("background-image", image)
+        results.forEach(function(result, index){
+            var image = 'url(' + result.get('image')._url + ')';
+            $('#feedScroller > #loadMoreButton').before('<div></div>');
+            $('#feedScroller > *:nth-child(' + (index + 1 + skip * numToLoad) + ')').css('background-image', image);
         });
+        if (results.length){
+            skip += 1;
+            $('#feedScroller').css('height', 548 * results.length * skip);
+            feedScroll.refresh();
+        }
+        if (results.length < 10) {
+            $('#loadMoreButton').css('display', 'none');
+        }
+        $('.spinnerContainer').removeClass('show');
     }
 }

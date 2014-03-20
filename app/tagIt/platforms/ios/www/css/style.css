@@ -14,6 +14,14 @@ body {
     box-sizing: border-box;
     overflow-y: hidden;
 }
+#ios7statusbar {
+    width: 100%;
+    height: 20px;
+    background-color:white;
+    position:fixed;
+    z-index: 100;
+    top: 0;
+}
 .spinnerContainer {
     height: 100%;
     width: 100%;
@@ -49,7 +57,7 @@ body {
     text-align: center;
 }
 #feedWrapper #feedScroller {
-    height: 5112px;
+    height: 5480px;
     width: 320px;
     position: absolute;
     z-index: 1;
@@ -75,6 +83,22 @@ body {
     width: 320px;
     margin: 0;
     background-size: 100%;
+}
+#feedWrapper > #feedScroller > div#loadMoreButton {
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    position: absolute;
+    right:0;
+    left:0;
+    bottom: 5px;
+    background-color: rgba(255,255,255,0.5);
+    line-height: 40px;
+    padding: 0;
+    border-radius: 10px;
+}
+#feedWrapper > #feedScroller > div#loadMoreButton:focus, #feedWrapper > #feedScroller > div#loadMoreButton:active {
+    background: rgba(255,255,255,0.3);
 }
 #wrapper {
     height: 548px;
@@ -139,11 +163,10 @@ body {
 .header.feedHeader {
     margin-bottom: -41px;
     padding: 0;
-    -webkit-filter: blur(1px);
-    -moz-filter: blur(1px);
-    -o-filter: blur(1px);
-    -ms-filter: blur(1px);
-    filter: blur(1px);
+    background: -webkit-linear-gradient(black, rgba(0,0,0,0.5)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, rgba(0,0,0,0.5)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, rgba(0,0,0,0.5)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, rgba(0,0,0,0.5)); /* Standard syntax */
 }
 h1.tagIt {
     margin: 0;

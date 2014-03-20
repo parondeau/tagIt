@@ -7,14 +7,12 @@
  *
  *Return - Parse.Object extending "Tags" - Empty if query fails
  */
-var skip = 0;
 function getFeed(num, skip, callback) {
     var Tags = Parse.Object.extend("Tags");
     var query = new Parse.Query(Tags);
 
     query.limit(num);
-    query.skip(skip);
-    skip += num;
+    query.skip(skip * num);
     query.exists("image");
     query.descending("createdAt");
     query.find({

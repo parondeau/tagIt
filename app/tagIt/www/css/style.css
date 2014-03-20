@@ -3,16 +3,24 @@
     src: url(../fonts/Pacifico.ttf);
 }
 body {
-    height:548px;
-    width:100%;
-    margin:0px;
+    height: 548px;
+    width: 100%;
+    margin: 0px;
     margin-top: 20px;
-    padding:0px;
+    padding: 0px;
     font-size: 17px;
     font-family: Pacifico, Helvetica, sans-serif;
     font-weight: 100;
     box-sizing: border-box;
     overflow-y: hidden;
+}
+#ios7statusbar {
+    width: 100%;
+    height: 20px;
+    background-color:white;
+    position:fixed;
+    z-index: 100;
+    top: 0;
 }
 .spinnerContainer {
     height: 100%;
@@ -49,7 +57,7 @@ body {
     text-align: center;
 }
 #feedWrapper #feedScroller {
-    height: 5112px;
+    height: 5480px;
     width: 320px;
     position: absolute;
     z-index: 1;
@@ -75,6 +83,22 @@ body {
     width: 320px;
     margin: 0;
     background-size: 100%;
+}
+#feedWrapper > #feedScroller > div#loadMoreButton {
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    position: absolute;
+    right:0;
+    left:0;
+    bottom: 5px;
+    background-color: rgba(255,255,255,0.5);
+    line-height: 40px;
+    padding: 0;
+    border-radius: 10px;
+}
+#feedWrapper > #feedScroller > div#loadMoreButton:focus, #feedWrapper > #feedScroller > div#loadMoreButton:active {
+    background: rgba(255,255,255,0.3);
 }
 #wrapper {
     height: 548px;
@@ -131,19 +155,17 @@ body {
     background-color: purple;
 }
 .header{
-    background-color: rgba(255,255,255,0.2);
     padding-bottom: 5px;
     position: relative;
     z-index: 5;
+    background: -webkit-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0)); /* Standard syntax */
 }
 .header.feedHeader {
     margin-bottom: -41px;
     padding: 0;
-    -webkit-filter: blur(1px);
-    -moz-filter: blur(1px);
-    -o-filter: blur(1px);
-    -ms-filter: blur(1px);
-    filter: blur(1px);
 }
 h1.tagIt {
     margin: 0;

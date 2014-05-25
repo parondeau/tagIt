@@ -247,3 +247,7 @@ Terminating in response to SpringBoard's termination.
 2014-03-12 00:21:23.846 tagIt[2064:80b] Unlimited access to network resources
 2014-03-12 00:21:24.104 tagIt[2064:80b] Resetting plugins due to page load.
 2014-03-12 00:21:24.679 tagIt[2064:80b] Finished load of: file:///Users/paulrondeau/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7BDDA4CF-CDD1-457E-8C03-E6A6A818F3B9/tagIt.app/www/index.html
+2014-05-24 22:17:28.487 tagIt[26400:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-24 22:17:28.500 tagIt[26400:70b] Unlimited access to network resources
+2014-05-24 22:17:28.736 tagIt[26400:70b] Resetting plugins due to page load.
+2014-05-24 22:17:30.411 tagIt[26400:70b] Finished load of: file:///Users/paulrondeau/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/75504F79-0FB0-4A3E-9388-E906C57FAABE/tagIt.app/www/index.html

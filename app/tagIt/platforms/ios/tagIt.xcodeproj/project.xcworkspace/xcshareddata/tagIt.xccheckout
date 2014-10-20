@@ -10,29 +10,29 @@
 	<string>tagIt</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>BFC67B33-9E40-469B-B500-AFAE2729A93B</key>
+		<key>FD5DECBC1CA1B7908593B93F54D912FA0EA8EC33</key>
 		<string>https://github.com/parondeau/tagIt.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>app/tagIt/platforms/ios/tagIt.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>BFC67B33-9E40-469B-B500-AFAE2729A93B</key>
+		<key>FD5DECBC1CA1B7908593B93F54D912FA0EA8EC33</key>
 		<string>../../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/parondeau/tagIt.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>BFC67B33-9E40-469B-B500-AFAE2729A93B</string>
+	<string>FD5DECBC1CA1B7908593B93F54D912FA0EA8EC33</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>BFC67B33-9E40-469B-B500-AFAE2729A93B</string>
+			<string>FD5DECBC1CA1B7908593B93F54D912FA0EA8EC33</string>
 			<key>IDESourceControlWCCName</key>
 			<string>tagIt</string>
 		</dict>
